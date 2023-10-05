@@ -1,0 +1,3147 @@
+{
+  "id": "5f17d9e91000002330584937",
+  "displayName": "DMZ",
+  "description": "",
+  "templates": [
+    {
+      "name": "Template1",
+      "displayName": "DMZ",
+      "tenantId": "5d985fe70e00003b00d02af1",
+      "anps": [
+        {
+          "name": "DMZ-WAN",
+          "displayName": "DMZ-WAN",
+          "anpRef": "/schemas/5f17d9e91000002330584937/templates/Template1/anps/DMZ-WAN",
+          "epgs": [
+            {
+              "name": "DMZ-WAN-1251",
+              "displayName": "DMZ-WAN-1251",
+              "epgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/anps/DMZ-WAN/epgs/DMZ-WAN-1251",
+              "contractRelationships": [
+                {
+                  "relationshipType": "consumer",
+                  "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/DMZ-INTERNET"
+                },
+                {
+                  "relationshipType": "consumer",
+                  "contractRef": "/schemas/5d9861440e00003a00d02af2/templates/BOTHSITES/contracts/CP-WAF-443-TCP"
+                },
+                {
+                  "relationshipType": "consumer",
+                  "contractRef": "/schemas/5fbba286110000fd16d41da9/templates/Template1/contracts/CP-WAF-80-TCP"
+                }
+              ],
+              "subnets": [
+                {
+                  "ip": "10.246.251.254/24",
+                  "description": "",
+                  "scope": "public",
+                  "shared": false,
+                  "querier": false,
+                  "noDefaultGateway": false,
+                  "virtual": false,
+                  "primary": false
+                }
+              ],
+              "uSegEpg": false,
+              "uSegAttrs": [],
+              "intraEpg": "unenforced",
+              "prio": "unspecified",
+              "proxyArp": false,
+              "mCastSource": false,
+              "preferredGroup": false,
+              "bdRef": "/schemas/5f17d9e91000002330584937/templates/Template1/bds/DMZ-WAN-1251",
+              "vrfRef": "",
+              "selectors": [],
+              "epgType": "application",
+              "description": ""
+            },
+            {
+              "name": "DMZ-WEBMAIL-1251",
+              "displayName": "DMZ-WEBMAIL-1251",
+              "epgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/anps/DMZ-WAN/epgs/DMZ-WEBMAIL-1251",
+              "contractRelationships": [
+                {
+                  "relationshipType": "provider",
+                  "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/DMZ-WEBMAIL-IPS"
+                }
+              ],
+              "subnets": [
+                {
+                  "ip": "10.246.251.254/24",
+                  "description": "",
+                  "scope": "public",
+                  "shared": false,
+                  "querier": false,
+                  "noDefaultGateway": false,
+                  "virtual": false,
+                  "primary": false
+                }
+              ],
+              "uSegEpg": false,
+              "uSegAttrs": [],
+              "intraEpg": "unenforced",
+              "prio": "unspecified",
+              "proxyArp": false,
+              "mCastSource": false,
+              "preferredGroup": false,
+              "bdRef": "/schemas/5f17d9e91000002330584937/templates/Template1/bds/DMZ-WAN-1251",
+              "vrfRef": "",
+              "selectors": [],
+              "epgType": "application",
+              "description": ""
+            },
+            {
+              "name": "DMZ-MAIL-1251",
+              "displayName": "DMZ-MAIL-1251",
+              "epgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/anps/DMZ-WAN/epgs/DMZ-MAIL-1251",
+              "contractRelationships": [
+                {
+                  "relationshipType": "consumer",
+                  "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/DMZ-INTERNET"
+                }
+              ],
+              "subnets": [
+                {
+                  "ip": "10.246.251.254/24",
+                  "description": "",
+                  "scope": "public",
+                  "shared": false,
+                  "querier": false,
+                  "noDefaultGateway": false,
+                  "virtual": false,
+                  "primary": false
+                }
+              ],
+              "uSegEpg": false,
+              "uSegAttrs": [],
+              "intraEpg": "unenforced",
+              "prio": "unspecified",
+              "proxyArp": false,
+              "mCastSource": false,
+              "preferredGroup": false,
+              "bdRef": "/schemas/5f17d9e91000002330584937/templates/Template1/bds/DMZ-WAN-1251",
+              "vrfRef": "",
+              "selectors": [],
+              "epgType": "application",
+              "description": ""
+            },
+            {
+              "name": "DMZ-FTP-1251",
+              "displayName": "DMZ-FTP-1251",
+              "epgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/anps/DMZ-WAN/epgs/DMZ-FTP-1251",
+              "contractRelationships": [
+                {
+                  "relationshipType": "provider",
+                  "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/DMZ-FTP-SFTP-IPS"
+                },
+                {
+                  "relationshipType": "consumer",
+                  "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/CD-FTP-to-IDEMIA"
+                }
+              ],
+              "subnets": [
+                {
+                  "ip": "10.246.251.254/24",
+                  "description": "",
+                  "scope": "public",
+                  "shared": false,
+                  "querier": false,
+                  "noDefaultGateway": false,
+                  "virtual": false,
+                  "primary": false
+                }
+              ],
+              "uSegEpg": false,
+              "uSegAttrs": [],
+              "intraEpg": "unenforced",
+              "prio": "unspecified",
+              "proxyArp": false,
+              "mCastSource": false,
+              "preferredGroup": false,
+              "bdRef": "/schemas/5f17d9e91000002330584937/templates/Template1/bds/DMZ-WAN-1251",
+              "vrfRef": "",
+              "selectors": [],
+              "epgType": "application",
+              "description": ""
+            },
+            {
+              "name": "DMZ-SMSGW",
+              "displayName": "DMZ-SMSGW",
+              "epgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/anps/DMZ-WAN/epgs/DMZ-SMSGW",
+              "contractRelationships": [
+                {
+                  "relationshipType": "provider",
+                  "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/CP-DMZ-SMSGW-TCP-2775"
+                },
+                {
+                  "relationshipType": "provider",
+                  "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/C-DMZ-ICMP"
+                },
+                {
+                  "relationshipType": "consumer",
+                  "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/C-DMZ-ICMP"
+                }
+              ],
+              "subnets": [],
+              "uSegEpg": false,
+              "uSegAttrs": [],
+              "intraEpg": "unenforced",
+              "prio": "unspecified",
+              "proxyArp": false,
+              "mCastSource": false,
+              "preferredGroup": false,
+              "bdRef": "/schemas/5f17d9e91000002330584937/templates/Template1/bds/DMZ-WAN-1251",
+              "vrfRef": "",
+              "selectors": [],
+              "epgType": "application",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "name": "TEST",
+          "displayName": "TEST",
+          "anpRef": "/schemas/5f17d9e91000002330584937/templates/Template1/anps/TEST",
+          "epgs": [
+            {
+              "name": "TEST-SCHEMA-85",
+              "displayName": "TEST-SCHEMA-85",
+              "epgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/anps/TEST/epgs/TEST-SCHEMA-85",
+              "contractRelationships": [],
+              "subnets": [
+                {
+                  "ip": "192.168.85.254/24",
+                  "description": "",
+                  "scope": "public",
+                  "shared": false,
+                  "querier": false,
+                  "noDefaultGateway": false,
+                  "virtual": false,
+                  "primary": false
+                }
+              ],
+              "uSegEpg": false,
+              "uSegAttrs": [],
+              "intraEpg": "unenforced",
+              "prio": "unspecified",
+              "proxyArp": false,
+              "mCastSource": false,
+              "preferredGroup": false,
+              "bdRef": "/schemas/5d9861440e00003a00d02af2/templates/BOTHSITES/bds/TEST-VLAN-85",
+              "vrfRef": "",
+              "selectors": [],
+              "epgType": "application",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "name": "RBS",
+          "displayName": "RBS",
+          "anpRef": "/schemas/5f17d9e91000002330584937/templates/Template1/anps/RBS",
+          "epgs": [
+            {
+              "name": "RBS-EXT-PROD",
+              "displayName": "RBS-EXT-PROD",
+              "epgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/anps/RBS/epgs/RBS-EXT-PROD",
+              "contractRelationships": [
+                {
+                  "relationshipType": "consumer",
+                  "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/eCP-NAS-RBS"
+                },
+                {
+                  "relationshipType": "provider",
+                  "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/CP-RBS-TCP-UDP"
+                },
+                {
+                  "relationshipType": "consumer",
+                  "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/C-DMZ-ICMP"
+                },
+                {
+                  "relationshipType": "provider",
+                  "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/C-DMZ-ICMP"
+                },
+                {
+                  "relationshipType": "consumer",
+                  "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/eCP-NAS-RBS-3799-UDP"
+                }
+              ],
+              "subnets": [],
+              "uSegEpg": false,
+              "uSegAttrs": [],
+              "intraEpg": "unenforced",
+              "prio": "unspecified",
+              "proxyArp": false,
+              "mCastSource": false,
+              "preferredGroup": false,
+              "bdRef": "/schemas/5f17d9e91000002330584937/templates/Template1/bds/RBS-PROD",
+              "vrfRef": "",
+              "selectors": [],
+              "epgType": "application",
+              "description": ""
+            },
+            {
+              "name": "DMZ-RBS-1251",
+              "displayName": "DMZ-RBS-1251",
+              "epgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/anps/RBS/epgs/DMZ-RBS-1251",
+              "contractRelationships": [
+                {
+                  "relationshipType": "consumer",
+                  "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/eCP-NAS-RBS"
+                },
+                {
+                  "relationshipType": "provider",
+                  "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/CP-RBS-TCP-UDP"
+                },
+                {
+                  "relationshipType": "consumer",
+                  "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/C-DMZ-ICMP"
+                },
+                {
+                  "relationshipType": "provider",
+                  "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/C-DMZ-ICMP"
+                }
+              ],
+              "subnets": [],
+              "uSegEpg": false,
+              "uSegAttrs": [],
+              "intraEpg": "unenforced",
+              "prio": "unspecified",
+              "proxyArp": false,
+              "mCastSource": false,
+              "preferredGroup": false,
+              "bdRef": "/schemas/5f17d9e91000002330584937/templates/Template1/bds/DMZ-WAN-1251",
+              "vrfRef": "",
+              "selectors": [],
+              "epgType": "application",
+              "description": ""
+            },
+            {
+              "name": "RBS-EXT-PROD-2",
+              "displayName": "RBS-EXT-PROD-2",
+              "epgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/anps/RBS/epgs/RBS-EXT-PROD-2",
+              "contractRelationships": [
+                {
+                  "relationshipType": "consumer",
+                  "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/eCP-NAS-RBS"
+                },
+                {
+                  "relationshipType": "provider",
+                  "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/CP-RBS-TCP-UDP"
+                },
+                {
+                  "relationshipType": "consumer",
+                  "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/C-DMZ-ICMP"
+                },
+                {
+                  "relationshipType": "provider",
+                  "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/C-DMZ-ICMP"
+                },
+                {
+                  "relationshipType": "consumer",
+                  "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/eCP-NAS-RBS-3799-UDP"
+                }
+              ],
+              "subnets": [],
+              "uSegEpg": false,
+              "uSegAttrs": [],
+              "intraEpg": "unenforced",
+              "prio": "unspecified",
+              "proxyArp": false,
+              "mCastSource": false,
+              "preferredGroup": false,
+              "bdRef": "/schemas/5f17d9e91000002330584937/templates/Template1/bds/DMZ-IPPUB-DIRECT",
+              "vrfRef": "",
+              "selectors": [],
+              "epgType": "application",
+              "description": ""
+            }
+          ]
+        }
+      ],
+      "vrfs": [
+        {
+          "name": "DMZ",
+          "displayName": "DMZ",
+          "vrfRef": "/schemas/5f17d9e91000002330584937/templates/Template1/vrfs/DMZ",
+          "l3MCast": true,
+          "preferredGroup": false,
+          "vzAnyEnabled": true,
+          "vzAnyProviderContracts": [
+            {
+              "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/C-DMZ-TCP-ESTABLISHED"
+            }
+          ],
+          "vzAnyConsumerContracts": [
+            {
+              "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/C-DMZ-TCP-ESTABLISHED"
+            }
+          ],
+          "rpConfigs": [],
+          "pcEnfPref": "enforced",
+          "ipDataPlaneLearning": "enabled",
+          "description": "",
+          "rtAutoDisabled": false
+        }
+      ],
+      "bds": [
+        {
+          "name": "DMZ-WAN-1251",
+          "displayName": "DMZ-WAN-1251",
+          "bdRef": "/schemas/5f17d9e91000002330584937/templates/Template1/bds/DMZ-WAN-1251",
+          "l2UnknownUnicast": "proxy",
+          "intersiteBumTrafficAllow": true,
+          "optimizeWanBandwidth": true,
+          "l2Stretch": true,
+          "l3MCast": false,
+          "subnets": [
+            {
+              "ip": "10.246.251.254/24",
+              "description": "",
+              "scope": "public",
+              "shared": false,
+              "querier": false,
+              "noDefaultGateway": false,
+              "virtual": false,
+              "primary": false
+            }
+          ],
+          "vrfRef": "/schemas/5f17d9e91000002330584937/templates/Template1/vrfs/DMZ",
+          "unkMcastAct": "flood",
+          "v6unkMcastAct": "flood",
+          "arpFlood": true,
+          "multiDstPktAct": "bd-flood",
+          "dhcpLabels": [],
+          "unicastRouting": true,
+          "description": ""
+        },
+        {
+          "name": "RBS-PROD",
+          "displayName": "RBS-PROD",
+          "bdRef": "/schemas/5f17d9e91000002330584937/templates/Template1/bds/RBS-PROD",
+          "l2UnknownUnicast": "proxy",
+          "intersiteBumTrafficAllow": true,
+          "optimizeWanBandwidth": true,
+          "l2Stretch": true,
+          "l3MCast": false,
+          "subnets": [
+            {
+              "ip": "102.16.24.9/29",
+              "description": "",
+              "scope": "public",
+              "shared": false,
+              "querier": false,
+              "noDefaultGateway": false,
+              "virtual": false,
+              "primary": false
+            }
+          ],
+          "vrfRef": "/schemas/5f17d9e91000002330584937/templates/Template1/vrfs/DMZ",
+          "unkMcastAct": "flood",
+          "v6unkMcastAct": "flood",
+          "arpFlood": true,
+          "multiDstPktAct": "bd-flood",
+          "dhcpLabels": [],
+          "unicastRouting": true,
+          "description": ""
+        },
+        {
+          "name": "PBR-DMZ",
+          "displayName": "PBR-DMZ",
+          "bdRef": "/schemas/5f17d9e91000002330584937/templates/Template1/bds/PBR-DMZ",
+          "l2UnknownUnicast": "proxy",
+          "intersiteBumTrafficAllow": true,
+          "optimizeWanBandwidth": true,
+          "l2Stretch": true,
+          "l3MCast": false,
+          "subnets": [
+            {
+              "ip": "10.40.251.1/24",
+              "description": "",
+              "scope": "private",
+              "shared": false,
+              "querier": false,
+              "noDefaultGateway": false,
+              "virtual": false,
+              "primary": false
+            }
+          ],
+          "vrfRef": "/schemas/5f17d9e91000002330584937/templates/Template1/vrfs/DMZ",
+          "unkMcastAct": "flood",
+          "v6unkMcastAct": "flood",
+          "arpFlood": true,
+          "multiDstPktAct": "bd-flood",
+          "dhcpLabels": [],
+          "unicastRouting": true,
+          "description": ""
+        },
+        {
+          "name": "DMZ-IPPUB-DIRECT",
+          "displayName": "DMZ-IPPUB-DIRECT",
+          "bdRef": "/schemas/5f17d9e91000002330584937/templates/Template1/bds/DMZ-IPPUB-DIRECT",
+          "l2UnknownUnicast": "proxy",
+          "intersiteBumTrafficAllow": true,
+          "optimizeWanBandwidth": true,
+          "l2Stretch": true,
+          "l3MCast": false,
+          "subnets": [
+            {
+              "ip": "102.16.24.129/29",
+              "description": "",
+              "scope": "public",
+              "shared": false,
+              "querier": false,
+              "noDefaultGateway": false,
+              "virtual": false,
+              "primary": false
+            }
+          ],
+          "vrfRef": "/schemas/5f17d9e91000002330584937/templates/Template1/vrfs/DMZ",
+          "unkMcastAct": "flood",
+          "v6unkMcastAct": "flood",
+          "arpFlood": true,
+          "multiDstPktAct": "bd-flood",
+          "dhcpLabels": [],
+          "unicastRouting": true,
+          "description": ""
+        }
+      ],
+      "contracts": [
+        {
+          "name": "DMZ-INTERNET",
+          "displayName": "DMZ-INTERNET",
+          "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/DMZ-INTERNET",
+          "filterRelationships": [
+            {
+              "filterRef": "/schemas/5d9861440e00003a00d02af2/templates/BOTHSITES/filters/ALL",
+              "directives": ["none"],
+              "action": "permit",
+              "priorityOverride": "default"
+            }
+          ],
+          "prio": "unspecified",
+          "scope": "global",
+          "subjectName": "msc-subject",
+          "filterType": "bothWay",
+          "filterRelationshipsProviderToConsumer": [],
+          "filterRelationshipsConsumerToProvider": [],
+          "description": ""
+        },
+        {
+          "name": "C-DMZ-ICMP",
+          "displayName": "C-DMZ-ICMP",
+          "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/C-DMZ-ICMP",
+          "filterRelationships": [],
+          "prio": "unspecified",
+          "scope": "global",
+          "subjectName": "msc-subject",
+          "filterType": "oneWay",
+          "filterRelationshipsProviderToConsumer": [],
+          "filterRelationshipsConsumerToProvider": [
+            {
+              "filterRef": "/schemas/5d9861440e00003a00d02af2/templates/BOTHSITES/filters/ICMP",
+              "directives": ["none"],
+              "action": "permit",
+              "priorityOverride": "default"
+            }
+          ],
+          "description": ""
+        },
+        {
+          "name": "CP-RBS-TCP-UDP",
+          "displayName": "CP-RBS-TCP-UDP",
+          "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/CP-RBS-TCP-UDP",
+          "filterRelationships": [],
+          "prio": "unspecified",
+          "scope": "global",
+          "subjectName": "msc-subject",
+          "filterType": "oneWay",
+          "filterRelationshipsProviderToConsumer": [],
+          "filterRelationshipsConsumerToProvider": [
+            {
+              "filterRef": "/schemas/5f17d9e91000002330584937/templates/Template1/filters/TCP-UDP-1645",
+              "directives": ["none"],
+              "action": "permit",
+              "priorityOverride": "default"
+            },
+            {
+              "filterRef": "/schemas/5f17d9e91000002330584937/templates/Template1/filters/TCP-UDP-1646",
+              "directives": ["none"],
+              "action": "permit",
+              "priorityOverride": "default"
+            }
+          ],
+          "description": ""
+        },
+        {
+          "name": "eCP-NAS-RBS",
+          "displayName": "eCP-NAS-RBS",
+          "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/eCP-NAS-RBS",
+          "filterRelationships": [],
+          "prio": "unspecified",
+          "scope": "global",
+          "subjectName": "msc-subject",
+          "filterType": "oneWay",
+          "filterRelationshipsProviderToConsumer": [],
+          "filterRelationshipsConsumerToProvider": [
+            {
+              "filterRef": "/schemas/5f17d9e91000002330584937/templates/Template1/filters/TCP-UDP-1646",
+              "directives": ["none"],
+              "action": "permit",
+              "priorityOverride": "default"
+            },
+            {
+              "filterRef": "/schemas/5f17d9e91000002330584937/templates/Template1/filters/TCP-UDP-1812",
+              "directives": ["none"],
+              "action": "permit",
+              "priorityOverride": "default"
+            },
+            {
+              "filterRef": "/schemas/5f17d9e91000002330584937/templates/Template1/filters/TCP-UDP-1813",
+              "directives": ["none"],
+              "action": "permit",
+              "priorityOverride": "default"
+            },
+            {
+              "filterRef": "/schemas/5f17d9e91000002330584937/templates/Template1/filters/TCP-UDP-1645",
+              "directives": ["none"],
+              "action": "permit",
+              "priorityOverride": "default"
+            }
+          ],
+          "description": ""
+        },
+        {
+          "name": "CP-DMZ-SMSGW-TCP-2775",
+          "displayName": "CP-DMZ-SMSGW-TCP-2775",
+          "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/CP-DMZ-SMSGW-TCP-2775",
+          "filterRelationships": [],
+          "prio": "unspecified",
+          "scope": "global",
+          "subjectName": "msc-subject",
+          "filterType": "oneWay",
+          "filterRelationshipsProviderToConsumer": [],
+          "filterRelationshipsConsumerToProvider": [
+            {
+              "filterRef": "/schemas/5d9861440e00003a00d02af2/templates/BOTHSITES/filters/TCP-2775",
+              "directives": ["none"],
+              "action": "permit",
+              "priorityOverride": "default"
+            }
+          ],
+          "description": ""
+        },
+        {
+          "name": "C-DMZ-TCP-ESTABLISHED",
+          "displayName": "C-DMZ-TCP-ESTABLISHED",
+          "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/C-DMZ-TCP-ESTABLISHED",
+          "filterRelationships": [],
+          "prio": "unspecified",
+          "scope": "global",
+          "subjectName": "msc-subject",
+          "filterType": "oneWay",
+          "filterRelationshipsProviderToConsumer": [],
+          "filterRelationshipsConsumerToProvider": [
+            {
+              "filterRef": "/schemas/5d9861440e00003a00d02af2/templates/BOTHSITES/filters/ALL-ESTABLISHED",
+              "directives": ["none"],
+              "action": "permit",
+              "priorityOverride": "default"
+            }
+          ],
+          "description": ""
+        },
+        {
+          "name": "DMZ-WEBMAIL-IPS",
+          "displayName": "DMZ-WEBMAIL-IPS",
+          "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/DMZ-WEBMAIL-IPS",
+          "filterRelationships": [
+            {
+              "filterRef": "/schemas/5d9861440e00003a00d02af2/templates/BOTHSITES/filters/HTTP",
+              "directives": ["none"],
+              "action": "permit",
+              "priorityOverride": "default"
+            },
+            {
+              "filterRef": "/schemas/5d9861440e00003a00d02af2/templates/BOTHSITES/filters/HTTPS",
+              "directives": ["none"],
+              "action": "permit",
+              "priorityOverride": "default"
+            },
+            {
+              "filterRef": "/schemas/5d9861440e00003a00d02af2/templates/BOTHSITES/filters/ICMP",
+              "directives": ["none"],
+              "action": "permit",
+              "priorityOverride": "default"
+            }
+          ],
+          "prio": "unspecified",
+          "scope": "global",
+          "subjectName": "msc-subject",
+          "filterType": "bothWay",
+          "filterRelationshipsProviderToConsumer": [],
+          "filterRelationshipsConsumerToProvider": [],
+          "serviceGraphRelationship": {
+            "serviceGraphRef": "/schemas/5f17d9e91000002330584937/templates/Template1/serviceGraphs/FTD-DMZ",
+            "serviceGraphContractRelationRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/DMZ-WEBMAIL-IPS/serviceGraphs/FTD-DMZ",
+            "serviceNodesRelationship": [
+              {
+                "serviceNodeRef": "/schemas/5f17d9e91000002330584937/templates/Template1/serviceGraphs/FTD-DMZ/serviceNodes/node1",
+                "providerConnector": {
+                  "connectorType": "general",
+                  "bdRef": "/schemas/5f17d9e91000002330584937/templates/Template1/bds/PBR-DMZ"
+                },
+                "consumerConnector": {
+                  "connectorType": "general",
+                  "bdRef": "/schemas/5f17d9e91000002330584937/templates/Template1/bds/PBR-DMZ"
+                }
+              }
+            ]
+          },
+          "description": ""
+        },
+        {
+          "name": "DMZ-FTP-SFTP-IPS",
+          "displayName": "DMZ-FTP-SFTP-IPS",
+          "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/DMZ-FTP-SFTP-IPS",
+          "filterRelationships": [
+            {
+              "filterRef": "/schemas/5d9861440e00003a00d02af2/templates/BOTHSITES/filters/TCP-8442",
+              "directives": ["none"],
+              "action": "permit",
+              "priorityOverride": "default"
+            },
+            {
+              "filterRef": "/schemas/5d9861440e00003a00d02af2/templates/BOTHSITES/filters/TCP-20",
+              "directives": ["none"],
+              "action": "permit",
+              "priorityOverride": "default"
+            },
+            {
+              "filterRef": "/schemas/5d9861440e00003a00d02af2/templates/BOTHSITES/filters/TCP-21",
+              "directives": ["none"],
+              "action": "permit",
+              "priorityOverride": "default"
+            },
+            {
+              "filterRef": "/schemas/5d9861440e00003a00d02af2/templates/BOTHSITES/filters/TCP-1024-65K",
+              "directives": ["none"],
+              "action": "permit",
+              "priorityOverride": "default"
+            }
+          ],
+          "prio": "unspecified",
+          "scope": "global",
+          "subjectName": "msc-subject",
+          "filterType": "bothWay",
+          "filterRelationshipsProviderToConsumer": [],
+          "filterRelationshipsConsumerToProvider": [],
+          "serviceGraphRelationship": {
+            "serviceGraphRef": "/schemas/5f17d9e91000002330584937/templates/Template1/serviceGraphs/FTD-DMZ",
+            "serviceGraphContractRelationRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/DMZ-FTP-SFTP-IPS/serviceGraphs/FTD-DMZ",
+            "serviceNodesRelationship": [
+              {
+                "serviceNodeRef": "/schemas/5f17d9e91000002330584937/templates/Template1/serviceGraphs/FTD-DMZ/serviceNodes/node1",
+                "providerConnector": {
+                  "connectorType": "general",
+                  "bdRef": "/schemas/5f17d9e91000002330584937/templates/Template1/bds/PBR-DMZ"
+                },
+                "consumerConnector": {
+                  "connectorType": "general",
+                  "bdRef": "/schemas/5f17d9e91000002330584937/templates/Template1/bds/PBR-DMZ"
+                }
+              }
+            ]
+          },
+          "description": ""
+        },
+        {
+          "name": "CD-FTP-to-IDEMIA",
+          "displayName": "CD-FTP-to-IDEMIA",
+          "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/CD-FTP-to-IDEMIA",
+          "filterRelationships": [],
+          "prio": "unspecified",
+          "scope": "global",
+          "subjectName": "msc-subject",
+          "filterType": "oneWay",
+          "filterRelationshipsProviderToConsumer": [],
+          "filterRelationshipsConsumerToProvider": [
+            {
+              "filterRef": "/schemas/5d9861440e00003a00d02af2/templates/BOTHSITES/filters/TCP-22",
+              "directives": ["none"],
+              "action": "permit",
+              "priorityOverride": "default"
+            }
+          ],
+          "description": ""
+        },
+        {
+          "name": "eCP-NAS-RBS-3799-UDP",
+          "displayName": "eCP-NAS-RBS-3799-UDP",
+          "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/eCP-NAS-RBS-3799-UDP",
+          "filterRelationships": [
+            {
+              "filterRef": "/schemas/5f17d9e91000002330584937/templates/Template1/filters/UDP-3799",
+              "directives": ["none"],
+              "action": "permit",
+              "priorityOverride": "default"
+            }
+          ],
+          "prio": "unspecified",
+          "scope": "global",
+          "subjectName": "msc-subject",
+          "filterType": "bothWay",
+          "filterRelationshipsProviderToConsumer": [],
+          "filterRelationshipsConsumerToProvider": [],
+          "description": ""
+        }
+      ],
+      "filters": [
+        {
+          "name": "TCP-UDP-1646",
+          "displayName": "TCP-UDP-1646",
+          "description": "",
+          "filterRef": "/schemas/5f17d9e91000002330584937/templates/Template1/filters/TCP-UDP-1646",
+          "entries": [
+            {
+              "name": "TCP-1646",
+              "displayName": "TCP-1646",
+              "description": "",
+              "etherType": "ip",
+              "arpFlag": "unspecified",
+              "ipProtocol": "tcp",
+              "matchOnlyFragments": false,
+              "stateful": false,
+              "sourceFrom": "unspecified",
+              "sourceTo": "unspecified",
+              "destinationFrom": "1646",
+              "destinationTo": "1646",
+              "tcpSessionRules": ["unspecified"]
+            },
+            {
+              "name": "UDP-1646",
+              "displayName": "UDP-1646",
+              "description": "",
+              "etherType": "ip",
+              "arpFlag": "unspecified",
+              "ipProtocol": "udp",
+              "matchOnlyFragments": false,
+              "stateful": false,
+              "sourceFrom": "unspecified",
+              "sourceTo": "unspecified",
+              "destinationFrom": "1646",
+              "destinationTo": "1646",
+              "tcpSessionRules": ["unspecified"]
+            }
+          ]
+        },
+        {
+          "name": "TCP-UDP-1645",
+          "displayName": "TCP-UDP-1645",
+          "description": "",
+          "filterRef": "/schemas/5f17d9e91000002330584937/templates/Template1/filters/TCP-UDP-1645",
+          "entries": [
+            {
+              "name": "TCP-1645",
+              "displayName": "TCP-1645",
+              "description": "",
+              "etherType": "ip",
+              "arpFlag": "unspecified",
+              "ipProtocol": "tcp",
+              "matchOnlyFragments": false,
+              "stateful": false,
+              "sourceFrom": "unspecified",
+              "sourceTo": "unspecified",
+              "destinationFrom": "1645",
+              "destinationTo": "1645",
+              "tcpSessionRules": ["unspecified"]
+            },
+            {
+              "name": "UDP-1645",
+              "displayName": "UDP-1645",
+              "description": "",
+              "etherType": "ip",
+              "arpFlag": "unspecified",
+              "ipProtocol": "udp",
+              "matchOnlyFragments": false,
+              "stateful": false,
+              "sourceFrom": "unspecified",
+              "sourceTo": "unspecified",
+              "destinationFrom": "1645",
+              "destinationTo": "1645",
+              "tcpSessionRules": ["unspecified"]
+            }
+          ]
+        },
+        {
+          "name": "TCP-UDP-1812",
+          "displayName": "TCP-UDP-1812",
+          "description": "",
+          "filterRef": "/schemas/5f17d9e91000002330584937/templates/Template1/filters/TCP-UDP-1812",
+          "entries": [
+            {
+              "name": "TCP-1812",
+              "displayName": "TCP-1812",
+              "description": "",
+              "etherType": "ip",
+              "arpFlag": "unspecified",
+              "ipProtocol": "tcp",
+              "matchOnlyFragments": false,
+              "stateful": false,
+              "sourceFrom": "unspecified",
+              "sourceTo": "unspecified",
+              "destinationFrom": "1812",
+              "destinationTo": "1812",
+              "tcpSessionRules": ["unspecified"]
+            },
+            {
+              "name": "UDP-1812",
+              "displayName": "UDP-1812",
+              "description": "",
+              "etherType": "ip",
+              "arpFlag": "unspecified",
+              "ipProtocol": "udp",
+              "matchOnlyFragments": false,
+              "stateful": false,
+              "sourceFrom": "unspecified",
+              "sourceTo": "unspecified",
+              "destinationFrom": "1812",
+              "destinationTo": "1812",
+              "tcpSessionRules": ["unspecified"]
+            }
+          ]
+        },
+        {
+          "name": "TCP-UDP-1813",
+          "displayName": "TCP-UDP-1813",
+          "description": "",
+          "filterRef": "/schemas/5f17d9e91000002330584937/templates/Template1/filters/TCP-UDP-1813",
+          "entries": [
+            {
+              "name": "TCP-1813",
+              "displayName": "TCP-1813",
+              "description": "",
+              "etherType": "ip",
+              "arpFlag": "unspecified",
+              "ipProtocol": "tcp",
+              "matchOnlyFragments": false,
+              "stateful": false,
+              "sourceFrom": "unspecified",
+              "sourceTo": "unspecified",
+              "destinationFrom": "1813",
+              "destinationTo": "1813",
+              "tcpSessionRules": ["unspecified"]
+            },
+            {
+              "name": "UDP-1813",
+              "displayName": "UDP-1813",
+              "description": "",
+              "etherType": "ip",
+              "arpFlag": "unspecified",
+              "ipProtocol": "udp",
+              "matchOnlyFragments": false,
+              "stateful": false,
+              "sourceFrom": "unspecified",
+              "sourceTo": "unspecified",
+              "destinationFrom": "1813",
+              "destinationTo": "1813",
+              "tcpSessionRules": ["unspecified"]
+            }
+          ]
+        },
+        {
+          "name": "ANY-DMZ",
+          "displayName": "ANY-DMZ",
+          "description": "",
+          "filterRef": "/schemas/5f17d9e91000002330584937/templates/Template1/filters/ANY-DMZ",
+          "entries": [
+            {
+              "name": "ANY",
+              "displayName": "ANY",
+              "description": "",
+              "etherType": "ip",
+              "arpFlag": "unspecified",
+              "ipProtocol": "unspecified",
+              "matchOnlyFragments": false,
+              "stateful": false,
+              "sourceFrom": "unspecified",
+              "sourceTo": "unspecified",
+              "destinationFrom": "unspecified",
+              "destinationTo": "unspecified",
+              "tcpSessionRules": ["unspecified"]
+            }
+          ]
+        },
+        {
+          "name": "ALL-ESTABLISHED-DMZ",
+          "displayName": "ALL-ESTABLISHED-DMZ",
+          "description": "",
+          "filterRef": "/schemas/5f17d9e91000002330584937/templates/Template1/filters/ALL-ESTABLISHED-DMZ",
+          "entries": [
+            {
+              "name": "ALL-ESTABLISHED-DMZ",
+              "displayName": "ALL-ESTABLISHED-DMZ",
+              "description": "",
+              "etherType": "ip",
+              "arpFlag": "unspecified",
+              "ipProtocol": "unspecified",
+              "matchOnlyFragments": false,
+              "stateful": false,
+              "sourceFrom": "unspecified",
+              "sourceTo": "unspecified",
+              "destinationFrom": "unspecified",
+              "destinationTo": "unspecified",
+              "tcpSessionRules": ["established"]
+            }
+          ]
+        },
+        {
+          "name": "UDP-3799",
+          "displayName": "UDP-3799",
+          "description": "",
+          "filterRef": "/schemas/5f17d9e91000002330584937/templates/Template1/filters/UDP-3799",
+          "entries": [
+            {
+              "name": "UDP-3799",
+              "displayName": "UDP-3799",
+              "description": "",
+              "etherType": "ip",
+              "arpFlag": "unspecified",
+              "ipProtocol": "udp",
+              "matchOnlyFragments": false,
+              "stateful": false,
+              "sourceFrom": "unspecified",
+              "sourceTo": "unspecified",
+              "destinationFrom": "3799",
+              "destinationTo": "3799",
+              "tcpSessionRules": ["unspecified"]
+            }
+          ]
+        }
+      ],
+      "externalEpgs": [
+        {
+          "name": "SUCURI",
+          "displayName": "SUCURI",
+          "extEpgType": "on-premise",
+          "vrfRef": "/schemas/5f17d9e91000002330584937/templates/Template1/vrfs/DMZ",
+          "subnets": [
+            {
+              "ip": "2a02:fe80::/29",
+              "scope": [],
+              "aggregate": []
+            },
+            {
+              "ip": "66.248.200.0/22",
+              "scope": [],
+              "aggregate": []
+            },
+            {
+              "ip": "185.93.228.0/22",
+              "scope": [],
+              "aggregate": []
+            },
+            {
+              "ip": "192.88.134.0/23",
+              "scope": [],
+              "aggregate": []
+            },
+            {
+              "ip": "208.109.0.0/22",
+              "scope": [],
+              "aggregate": []
+            }
+          ],
+          "selectors": [],
+          "contractRelationships": [
+            {
+              "relationshipType": "provider",
+              "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/DMZ-INTERNET"
+            }
+          ],
+          "preferredGroup": false,
+          "externalEpgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/externalEpgs/SUCURI",
+          "l3outRef": "/schemas/5f17d9e91000002330584937/templates/Template1/l3outs/DMZ",
+          "anpRef": "",
+          "description": ""
+        },
+        {
+          "name": "INTERNET-DMZ",
+          "displayName": "INTERNET-DMZ",
+          "extEpgType": "on-premise",
+          "vrfRef": "/schemas/5f17d9e91000002330584937/templates/Template1/vrfs/DMZ",
+          "subnets": [
+            {
+              "ip": "0.0.0.0/0",
+              "scope": ["import-security"],
+              "aggregate": []
+            }
+          ],
+          "selectors": [],
+          "contractRelationships": [
+            {
+              "relationshipType": "provider",
+              "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/DMZ-INTERNET"
+            },
+            {
+              "relationshipType": "consumer",
+              "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/DMZ-WEBMAIL-IPS"
+            },
+            {
+              "relationshipType": "consumer",
+              "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/DMZ-FTP-SFTP-IPS"
+            }
+          ],
+          "preferredGroup": false,
+          "externalEpgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/externalEpgs/INTERNET-DMZ",
+          "l3outRef": "/schemas/5f17d9e91000002330584937/templates/Template1/l3outs/DMZ",
+          "anpRef": "",
+          "description": ""
+        },
+        {
+          "name": "DTG-NAS",
+          "displayName": "DTG-NAS",
+          "extEpgType": "on-premise",
+          "vrfRef": "/schemas/5f17d9e91000002330584937/templates/Template1/vrfs/DMZ",
+          "subnets": [
+            {
+              "ip": "41.188.17.7/32",
+              "scope": ["import-security"],
+              "aggregate": []
+            },
+            {
+              "ip": "102.16.55.138/32",
+              "scope": ["import-security"],
+              "aggregate": []
+            },
+            {
+              "ip": "154.126.76.3/32",
+              "scope": ["import-security"],
+              "aggregate": []
+            },
+            {
+              "ip": "154.126.76.4/32",
+              "scope": ["import-security"],
+              "aggregate": []
+            },
+            {
+              "ip": "154.126.76.5/32",
+              "scope": ["import-security"],
+              "aggregate": []
+            },
+            {
+              "ip": "154.126.76.6/32",
+              "scope": ["import-security"],
+              "aggregate": []
+            },
+            {
+              "ip": "154.126.76.9/32",
+              "scope": ["import-security"],
+              "aggregate": []
+            },
+            {
+              "ip": "154.126.76.10/32",
+              "scope": ["import-security"],
+              "aggregate": []
+            },
+            {
+              "ip": "154.126.76.13/32",
+              "scope": ["import-security"],
+              "aggregate": []
+            },
+            {
+              "ip": "154.126.76.14/32",
+              "scope": ["import-security"],
+              "aggregate": []
+            },
+            {
+              "ip": "154.126.76.15/32",
+              "scope": ["import-security"],
+              "aggregate": []
+            },
+            {
+              "ip": "154.126.76.16/32",
+              "scope": ["import-security"],
+              "aggregate": []
+            },
+            {
+              "ip": "154.126.76.51/32",
+              "scope": ["import-security"],
+              "aggregate": []
+            },
+            {
+              "ip": "154.126.76.52/32",
+              "scope": ["import-security"],
+              "aggregate": []
+            },
+            {
+              "ip": "154.126.76.55/32",
+              "scope": ["import-security"],
+              "aggregate": []
+            },
+            {
+              "ip": "196.192.37.1/32",
+              "scope": ["import-security"],
+              "aggregate": []
+            }
+          ],
+          "selectors": [],
+          "contractRelationships": [
+            {
+              "relationshipType": "consumer",
+              "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/CP-RBS-TCP-UDP"
+            },
+            {
+              "relationshipType": "provider",
+              "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/eCP-NAS-RBS"
+            },
+            {
+              "relationshipType": "consumer",
+              "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/C-DMZ-ICMP"
+            },
+            {
+              "relationshipType": "provider",
+              "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/C-DMZ-ICMP"
+            },
+            {
+              "relationshipType": "provider",
+              "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/eCP-NAS-RBS-3799-UDP"
+            }
+          ],
+          "preferredGroup": false,
+          "externalEpgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/externalEpgs/DTG-NAS",
+          "l3outRef": "/schemas/5f17d9e91000002330584937/templates/Template1/l3outs/DMZ",
+          "anpRef": "",
+          "description": ""
+        },
+        {
+          "name": "FACEBOOK",
+          "displayName": "FACEBOOK",
+          "extEpgType": "on-premise",
+          "vrfRef": "/schemas/5f17d9e91000002330584937/templates/Template1/vrfs/DMZ",
+          "subnets": [
+            {
+              "ip": "41.207.32.82/32",
+              "scope": ["import-security"],
+              "aggregate": []
+            },
+            {
+              "ip": "69.63.177.199/32",
+              "scope": ["import-security"],
+              "aggregate": []
+            },
+            {
+              "ip": "69.63.177.215/32",
+              "scope": ["import-security"],
+              "aggregate": []
+            },
+            {
+              "ip": "69.171.254.7/32",
+              "scope": ["import-security"],
+              "aggregate": []
+            },
+            {
+              "ip": "69.171.254.23/32",
+              "scope": ["import-security"],
+              "aggregate": []
+            }
+          ],
+          "selectors": [],
+          "contractRelationships": [
+            {
+              "relationshipType": "consumer",
+              "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/CP-DMZ-SMSGW-TCP-2775"
+            },
+            {
+              "relationshipType": "consumer",
+              "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/C-DMZ-ICMP"
+            },
+            {
+              "relationshipType": "provider",
+              "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/C-DMZ-ICMP"
+            }
+          ],
+          "preferredGroup": false,
+          "externalEpgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/externalEpgs/FACEBOOK",
+          "l3outRef": "/schemas/5f17d9e91000002330584937/templates/Template1/l3outs/DMZ",
+          "anpRef": "",
+          "description": ""
+        },
+        {
+          "name": "IDEMIA-PUBLIC",
+          "displayName": "IDEMIA-PUBLIC",
+          "extEpgType": "on-premise",
+          "vrfRef": "/schemas/5f17d9e91000002330584937/templates/Template1/vrfs/DMZ",
+          "subnets": [
+            {
+              "ip": "196.192.179.226/32",
+              "scope": ["import-security"],
+              "aggregate": []
+            },
+            {
+              "ip": "154.117.162.186/32",
+              "scope": ["import-security"],
+              "aggregate": []
+            }
+          ],
+          "selectors": [],
+          "contractRelationships": [
+            {
+              "relationshipType": "provider",
+              "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/CD-FTP-to-IDEMIA"
+            }
+          ],
+          "preferredGroup": false,
+          "externalEpgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/externalEpgs/IDEMIA-PUBLIC",
+          "l3outRef": "/schemas/5f17d9e91000002330584937/templates/Template1/l3outs/DMZ",
+          "anpRef": "",
+          "description": ""
+        }
+      ],
+      "serviceGraphs": [
+        {
+          "name": "FTD-DMZ",
+          "displayName": "FTD-DMZ",
+          "serviceGraphRef": "/schemas/5f17d9e91000002330584937/templates/Template1/serviceGraphs/FTD-DMZ",
+          "description": "FTD-DMZ",
+          "serviceNodes": [
+            {
+              "name": "node1",
+              "serviceNodeRef": "/schemas/5f17d9e91000002330584937/templates/Template1/serviceGraphs/FTD-DMZ/serviceNodes/node1",
+              "serviceNodeTypeId": "0000ffff0000000000000051",
+              "index": 1
+            }
+          ],
+          "svcRuleType": "vrf"
+        }
+      ],
+      "intersiteL3outs": [
+        {
+          "name": "DMZ",
+          "displayName": "DMZ",
+          "vrfRef": "/schemas/5f17d9e91000002330584937/templates/Template1/vrfs/DMZ",
+          "l3outRef": "/schemas/5f17d9e91000002330584937/templates/Template1/l3outs/DMZ",
+          "description": ""
+        }
+      ],
+      "templateType": "stretched-template",
+      "templateSubType": [],
+      "networks": [],
+      "description": "",
+      "version": 15
+    }
+  ],
+  "_updateVersion": 736,
+  "sites": [
+    {
+      "siteId": "5d98502210000038006bd141",
+      "templateName": "Template1",
+      "anps": [
+        {
+          "anpRef": "/schemas/5f17d9e91000002330584937/templates/Template1/anps/DMZ-WAN",
+          "epgs": [
+            {
+              "epgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/anps/DMZ-WAN/epgs/DMZ-SMSGW",
+              "domainAssociations": [
+                {
+                  "dn": "uni/vmmp-VMware/dom-VMM-VDS-ANA-01",
+                  "domainType": "vmmDomain",
+                  "deployImmediacy": "immediate",
+                  "resolutionImmediacy": "immediate",
+                  "allowMicroSegmentation": false,
+                  "portEncapVlan": {
+                    "vlanType": "vlan",
+                    "vlan": 1557
+                  },
+                  "switchType": "default",
+                  "vlanEncapMode": "static",
+                  "epgLagPol": {
+                    "enhancedLagPol": {
+                      "name": "lag01",
+                      "dn": "uni/vmmp-VMware/dom-VMM-VDS-ANA-01/vswitchpolcont/enlacplagp-lag01"
+                    }
+                  },
+                  "switchingMode": "native"
+                },
+                {
+                  "dn": "uni/vmmp-VMware/dom-VMM-VDS-ANA-02",
+                  "domainType": "vmmDomain",
+                  "deployImmediacy": "lazy",
+                  "resolutionImmediacy": "lazy",
+                  "allowMicroSegmentation": false,
+                  "portEncapVlan": {
+                    "vlanType": "vlan",
+                    "vlan": 1883
+                  },
+                  "switchType": "default",
+                  "vlanEncapMode": "static",
+                  "epgLagPol": {
+                    "enhancedLagPol": {
+                      "name": "lag01",
+                      "dn": "uni/vmmp-VMware/dom-VMM-VDS-ANA-02/vswitchpolcont/enlacplagp-lag01"
+                    }
+                  },
+                  "switchingMode": "native"
+                }
+              ],
+              "staticPorts": [],
+              "staticLeafs": [],
+              "uSegAttrs": [],
+              "subnets": [],
+              "selectors": []
+            },
+            {
+              "epgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/anps/DMZ-WAN/epgs/DMZ-WEBMAIL-1251",
+              "domainAssociations": [
+                {
+                  "dn": "uni/vmmp-VMware/dom-VMM-VDS-ANA-01",
+                  "domainType": "vmmDomain",
+                  "deployImmediacy": "immediate",
+                  "resolutionImmediacy": "immediate",
+                  "allowMicroSegmentation": false,
+                  "portEncapVlan": {
+                    "vlanType": "vlan",
+                    "vlan": 1615
+                  },
+                  "switchType": "default",
+                  "vlanEncapMode": "static",
+                  "epgLagPol": {
+                    "enhancedLagPol": {
+                      "name": "lag01",
+                      "dn": "uni/vmmp-VMware/dom-VMM-VDS-ANA-01/vswitchpolcont/enlacplagp-lag01"
+                    }
+                  },
+                  "switchingMode": "native"
+                },
+                {
+                  "dn": "uni/vmmp-VMware/dom-VMM-VDS-ANA-02",
+                  "domainType": "vmmDomain",
+                  "deployImmediacy": "lazy",
+                  "resolutionImmediacy": "lazy",
+                  "allowMicroSegmentation": false,
+                  "portEncapVlan": {
+                    "vlanType": "vlan",
+                    "vlan": 1897
+                  },
+                  "switchType": "default",
+                  "vlanEncapMode": "static",
+                  "epgLagPol": {
+                    "enhancedLagPol": {
+                      "name": "lag01",
+                      "dn": "uni/vmmp-VMware/dom-VMM-VDS-ANA-02/vswitchpolcont/enlacplagp-lag01"
+                    }
+                  },
+                  "switchingMode": "native"
+                }
+              ],
+              "staticPorts": [],
+              "staticLeafs": [],
+              "uSegAttrs": [],
+              "subnets": [],
+              "selectors": []
+            },
+            {
+              "epgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/anps/DMZ-WAN/epgs/DMZ-WAN-1251",
+              "domainAssociations": [
+                {
+                  "dn": "uni/phys-TELMA-PHYS",
+                  "domainType": "physicalDomain",
+                  "deployImmediacy": "immediate",
+                  "resolutionImmediacy": "immediate",
+                  "allowMicroSegmentation": false
+                },
+                {
+                  "dn": "uni/vmmp-VMware/dom-HX-VDS-ANA-01",
+                  "domainType": "vmmDomain",
+                  "deployImmediacy": "immediate",
+                  "resolutionImmediacy": "immediate",
+                  "allowMicroSegmentation": false,
+                  "vlanEncapMode": "dynamic",
+                  "switchType": "default",
+                  "switchingMode": "native"
+                },
+                {
+                  "dn": "uni/vmmp-VMware/dom-VMM-VDS-ANA-02",
+                  "domainType": "vmmDomain",
+                  "deployImmediacy": "lazy",
+                  "resolutionImmediacy": "lazy",
+                  "allowMicroSegmentation": false,
+                  "portEncapVlan": {
+                    "vlanType": "vlan",
+                    "vlan": 1939
+                  },
+                  "switchType": "default",
+                  "vlanEncapMode": "static",
+                  "epgLagPol": {
+                    "enhancedLagPol": {
+                      "name": "lag01",
+                      "dn": "uni/vmmp-VMware/dom-VMM-VDS-ANA-02/vswitchpolcont/enlacplagp-lag01"
+                    }
+                  },
+                  "switchingMode": "native"
+                }
+              ],
+              "staticPorts": [
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-101/pathep-[eth1/1]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-101/pathep-[eth1/2]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-101/pathep-[eth1/3]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-101/pathep-[eth1/4]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-101/pathep-[eth1/5]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-101/pathep-[eth1/6]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-101/pathep-[eth1/7]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-101/pathep-[eth1/8]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-101/pathep-[eth1/9]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-101/pathep-[eth1/10]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-101/pathep-[eth1/11]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-102/pathep-[eth1/1]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-102/pathep-[eth1/2]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-102/pathep-[eth1/3]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-102/pathep-[eth1/4]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-102/pathep-[eth1/5]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-102/pathep-[eth1/6]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-102/pathep-[eth1/7]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-102/pathep-[eth1/8]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-102/pathep-[eth1/9]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-102/pathep-[eth1/10]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-102/pathep-[eth1/11]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-107/pathep-[eth1/6]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-107/pathep-[eth1/8]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-107/pathep-[eth1/10]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-107/pathep-[eth1/12]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-107/pathep-[eth1/14]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-107/pathep-[eth1/16]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-107/pathep-[eth1/18]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-107/pathep-[eth1/20]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-107/pathep-[eth1/22]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-107/pathep-[eth1/24]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-107/pathep-[eth1/26]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-107/pathep-[eth1/28]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-107/pathep-[eth1/30]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-107/pathep-[eth1/32]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-108/pathep-[eth1/6]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-108/pathep-[eth1/8]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-108/pathep-[eth1/10]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-108/pathep-[eth1/12]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-108/pathep-[eth1/14]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-108/pathep-[eth1/16]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-108/pathep-[eth1/18]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-108/pathep-[eth1/20]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-108/pathep-[eth1/22]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-108/pathep-[eth1/24]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-108/pathep-[eth1/26]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-108/pathep-[eth1/28]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-108/pathep-[eth1/30]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-108/pathep-[eth1/32]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                }
+              ],
+              "staticLeafs": [],
+              "uSegAttrs": [],
+              "subnets": [],
+              "selectors": []
+            },
+            {
+              "epgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/anps/DMZ-WAN/epgs/DMZ-MAIL-1251",
+              "domainAssociations": [],
+              "staticPorts": [],
+              "staticLeafs": [],
+              "uSegAttrs": [],
+              "subnets": [],
+              "selectors": []
+            },
+            {
+              "epgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/anps/DMZ-WAN/epgs/DMZ-FTP-1251",
+              "domainAssociations": [
+                {
+                  "dn": "uni/vmmp-VMware/dom-VMM-VDS-ANA-01",
+                  "domainType": "vmmDomain",
+                  "deployImmediacy": "immediate",
+                  "resolutionImmediacy": "immediate",
+                  "allowMicroSegmentation": false,
+                  "portEncapVlan": {
+                    "vlanType": "vlan",
+                    "vlan": 1465
+                  },
+                  "switchType": "default",
+                  "vlanEncapMode": "static",
+                  "epgLagPol": {
+                    "enhancedLagPol": {
+                      "name": "lag01",
+                      "dn": "uni/vmmp-VMware/dom-VMM-VDS-ANA-01/vswitchpolcont/enlacplagp-lag01"
+                    }
+                  },
+                  "switchingMode": "native"
+                },
+                {
+                  "dn": "uni/vmmp-VMware/dom-VMM-VDS-ANA-02",
+                  "domainType": "vmmDomain",
+                  "deployImmediacy": "lazy",
+                  "resolutionImmediacy": "lazy",
+                  "allowMicroSegmentation": false,
+                  "portEncapVlan": {
+                    "vlanType": "vlan",
+                    "vlan": 1989
+                  },
+                  "switchType": "default",
+                  "vlanEncapMode": "static",
+                  "epgLagPol": {
+                    "enhancedLagPol": {
+                      "name": "lag01",
+                      "dn": "uni/vmmp-VMware/dom-VMM-VDS-ANA-02/vswitchpolcont/enlacplagp-lag01"
+                    }
+                  },
+                  "switchingMode": "native"
+                }
+              ],
+              "staticPorts": [],
+              "staticLeafs": [],
+              "uSegAttrs": [],
+              "subnets": [],
+              "selectors": []
+            }
+          ]
+        },
+        {
+          "anpRef": "/schemas/5f17d9e91000002330584937/templates/Template1/anps/TEST",
+          "epgs": [
+            {
+              "epgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/anps/TEST/epgs/TEST-SCHEMA-85",
+              "domainAssociations": [
+                {
+                  "dn": "uni/vmmp-VMware/dom-VMM-VDS-ANA-01",
+                  "domainType": "vmmDomain",
+                  "deployImmediacy": "immediate",
+                  "resolutionImmediacy": "immediate",
+                  "allowMicroSegmentation": false,
+                  "switchType": "default",
+                  "vlanEncapMode": "dynamic",
+                  "epgLagPol": {
+                    "enhancedLagPol": {
+                      "name": "lag01",
+                      "dn": "uni/vmmp-VMware/dom-VMM-VDS-ANA-01/vswitchpolcont/enlacplagp-lag01"
+                    }
+                  },
+                  "switchingMode": "native"
+                }
+              ],
+              "staticPorts": [],
+              "staticLeafs": [],
+              "uSegAttrs": [],
+              "subnets": [],
+              "selectors": []
+            }
+          ]
+        },
+        {
+          "anpRef": "/schemas/5f17d9e91000002330584937/templates/Template1/anps/RBS",
+          "epgs": [
+            {
+              "epgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/anps/RBS/epgs/RBS-EXT-PROD",
+              "domainAssociations": [
+                {
+                  "dn": "uni/vmmp-VMware/dom-VMM-VDS-ANA-01",
+                  "domainType": "vmmDomain",
+                  "deployImmediacy": "immediate",
+                  "resolutionImmediacy": "immediate",
+                  "allowMicroSegmentation": false,
+                  "portEncapVlan": {
+                    "vlanType": "vlan",
+                    "vlan": 1539
+                  },
+                  "switchType": "default",
+                  "vlanEncapMode": "static",
+                  "epgLagPol": {
+                    "enhancedLagPol": {
+                      "name": "lag01",
+                      "dn": "uni/vmmp-VMware/dom-VMM-VDS-ANA-01/vswitchpolcont/enlacplagp-lag01"
+                    }
+                  },
+                  "switchingMode": "native"
+                },
+                {
+                  "dn": "uni/vmmp-VMware/dom-VMM-VDS-ANA-02",
+                  "domainType": "vmmDomain",
+                  "deployImmediacy": "lazy",
+                  "resolutionImmediacy": "lazy",
+                  "allowMicroSegmentation": false,
+                  "portEncapVlan": {
+                    "vlanType": "vlan",
+                    "vlan": 1787
+                  },
+                  "switchType": "default",
+                  "vlanEncapMode": "static",
+                  "epgLagPol": {
+                    "enhancedLagPol": {
+                      "name": "lag01",
+                      "dn": "uni/vmmp-VMware/dom-VMM-VDS-ANA-02/vswitchpolcont/enlacplagp-lag01"
+                    }
+                  },
+                  "switchingMode": "native"
+                }
+              ],
+              "staticPorts": [],
+              "staticLeafs": [],
+              "uSegAttrs": [],
+              "subnets": [],
+              "selectors": []
+            },
+            {
+              "epgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/anps/RBS/epgs/RBS-EXT-PROD-2",
+              "domainAssociations": [
+                {
+                  "dn": "uni/vmmp-VMware/dom-VMM-VDS-ANA-01",
+                  "domainType": "vmmDomain",
+                  "deployImmediacy": "lazy",
+                  "resolutionImmediacy": "lazy",
+                  "allowMicroSegmentation": false,
+                  "portEncapVlan": {
+                    "vlanType": "vlan",
+                    "vlan": 1687
+                  },
+                  "switchType": "default",
+                  "vlanEncapMode": "static",
+                  "epgLagPol": {
+                    "enhancedLagPol": {
+                      "name": "lag01",
+                      "dn": "uni/vmmp-VMware/dom-VMM-VDS-ANA-01/vswitchpolcont/enlacplagp-lag01"
+                    }
+                  },
+                  "switchingMode": "native"
+                },
+                {
+                  "dn": "uni/vmmp-VMware/dom-VMM-VDS-ANA-02",
+                  "domainType": "vmmDomain",
+                  "deployImmediacy": "lazy",
+                  "resolutionImmediacy": "lazy",
+                  "allowMicroSegmentation": false,
+                  "portEncapVlan": {
+                    "vlanType": "vlan",
+                    "vlan": 1847
+                  },
+                  "switchType": "default",
+                  "vlanEncapMode": "static",
+                  "epgLagPol": {
+                    "enhancedLagPol": {
+                      "name": "lag01",
+                      "dn": "uni/vmmp-VMware/dom-VMM-VDS-ANA-02/vswitchpolcont/enlacplagp-lag01"
+                    }
+                  },
+                  "switchingMode": "native"
+                }
+              ],
+              "staticPorts": [],
+              "staticLeafs": [],
+              "uSegAttrs": [],
+              "subnets": [],
+              "selectors": []
+            },
+            {
+              "epgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/anps/RBS/epgs/DMZ-RBS-1251",
+              "domainAssociations": [
+                {
+                  "dn": "uni/vmmp-VMware/dom-VMM-VDS-ANA-01",
+                  "domainType": "vmmDomain",
+                  "deployImmediacy": "immediate",
+                  "resolutionImmediacy": "immediate",
+                  "allowMicroSegmentation": false,
+                  "portEncapVlan": {
+                    "vlanType": "vlan",
+                    "vlan": 1579
+                  },
+                  "switchType": "default",
+                  "vlanEncapMode": "static",
+                  "epgLagPol": {
+                    "enhancedLagPol": {
+                      "name": "lag01",
+                      "dn": "uni/vmmp-VMware/dom-VMM-VDS-ANA-01/vswitchpolcont/enlacplagp-lag01"
+                    }
+                  },
+                  "switchingMode": "native"
+                },
+                {
+                  "dn": "uni/vmmp-VMware/dom-VMM-VDS-ANA-02",
+                  "domainType": "vmmDomain",
+                  "deployImmediacy": "lazy",
+                  "resolutionImmediacy": "lazy",
+                  "allowMicroSegmentation": false,
+                  "portEncapVlan": {
+                    "vlanType": "vlan",
+                    "vlan": 1845
+                  },
+                  "switchType": "default",
+                  "vlanEncapMode": "static",
+                  "epgLagPol": {
+                    "enhancedLagPol": {
+                      "name": "lag01",
+                      "dn": "uni/vmmp-VMware/dom-VMM-VDS-ANA-02/vswitchpolcont/enlacplagp-lag01"
+                    }
+                  },
+                  "switchingMode": "native"
+                }
+              ],
+              "staticPorts": [],
+              "staticLeafs": [],
+              "uSegAttrs": [],
+              "subnets": [],
+              "selectors": []
+            }
+          ]
+        }
+      ],
+      "vrfs": [
+        {
+          "vrfRef": "/schemas/5f17d9e91000002330584937/templates/Template1/vrfs/DMZ",
+          "regions": [],
+          "trmEnabled": false,
+          "isRPExternal": false,
+          "dcnmStaticLeafs": [],
+          "routeLeak": []
+        }
+      ],
+      "bds": [
+        {
+          "bdRef": "/schemas/5f17d9e91000002330584937/templates/Template1/bds/DMZ-WAN-1251",
+          "subnets": [],
+          "l3Outs": ["DMZ"],
+          "hostBasedRouting": true,
+          "l3OutRefs": ["/schemas/5f17d9e91000002330584937/templates/Template1/l3outs/DMZ"],
+          "mac": "00:22:BD:F8:19:FF"
+        },
+        {
+          "bdRef": "/schemas/5f17d9e91000002330584937/templates/Template1/bds/RBS-PROD",
+          "subnets": [],
+          "l3Outs": ["DMZ"],
+          "hostBasedRouting": true,
+          "l3OutRefs": ["/schemas/5f17d9e91000002330584937/templates/Template1/l3outs/DMZ"],
+          "mac": "00:22:BD:F8:19:FF"
+        },
+        {
+          "bdRef": "/schemas/5f17d9e91000002330584937/templates/Template1/bds/DMZ-IPPUB-DIRECT",
+          "subnets": [],
+          "l3Outs": ["DMZ"],
+          "hostBasedRouting": true,
+          "l3OutRefs": ["/schemas/5f17d9e91000002330584937/templates/Template1/l3outs/DMZ"],
+          "mac": "00:22:BD:F8:19:FF"
+        },
+        {
+          "bdRef": "/schemas/5f17d9e91000002330584937/templates/Template1/bds/PBR-DMZ",
+          "subnets": [],
+          "l3Outs": [],
+          "hostBasedRouting": false,
+          "l3OutRefs": [],
+          "mac": "00:22:BD:F8:19:FF"
+        }
+      ],
+      "contracts": [
+        {
+          "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/eCP-NAS-RBS-3799-UDP"
+        },
+        {
+          "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/CP-RBS-TCP-UDP"
+        },
+        {
+          "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/eCP-NAS-RBS"
+        },
+        {
+          "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/DMZ-FTP-SFTP-IPS",
+          "serviceGraphRelationship": {
+            "serviceGraphRef": "/schemas/5f17d9e91000002330584937/templates/Template1/serviceGraphs/FTD-DMZ",
+            "serviceNodesRelationship": [
+              {
+                "serviceNodeRef": "/schemas/5f17d9e91000002330584937/templates/Template1/serviceGraphs/FTD-DMZ/serviceNodes/node1",
+                "providerConnector": {
+                  "clusterInterface": {
+                    "dn": "uni/tn-TELMA/lDevVip-FTD/lIf-DATA-DMZ"
+                  },
+                  "redirectPolicy": {
+                    "dn": "uni/tn-TELMA/svcCont/svcRedirectPol-ANA-FTD-DMZ-REDIRECT"
+                  },
+                  "subnets": []
+                },
+                "consumerConnector": {
+                  "clusterInterface": {
+                    "dn": "uni/tn-TELMA/lDevVip-FTD/lIf-DATA-DMZ"
+                  },
+                  "redirectPolicy": {
+                    "dn": "uni/tn-TELMA/svcCont/svcRedirectPol-ANA-FTD-DMZ-REDIRECT"
+                  },
+                  "subnets": []
+                }
+              }
+            ]
+          }
+        },
+        {
+          "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/CD-FTP-to-IDEMIA"
+        },
+        {
+          "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/C-DMZ-TCP-ESTABLISHED"
+        },
+        {
+          "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/DMZ-INTERNET"
+        },
+        {
+          "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/DMZ-WEBMAIL-IPS",
+          "serviceGraphRelationship": {
+            "serviceGraphRef": "/schemas/5f17d9e91000002330584937/templates/Template1/serviceGraphs/FTD-DMZ",
+            "serviceNodesRelationship": [
+              {
+                "serviceNodeRef": "/schemas/5f17d9e91000002330584937/templates/Template1/serviceGraphs/FTD-DMZ/serviceNodes/node1",
+                "providerConnector": {
+                  "clusterInterface": {
+                    "dn": "uni/tn-TELMA/lDevVip-FTD/lIf-DATA-DMZ"
+                  },
+                  "redirectPolicy": {
+                    "dn": "uni/tn-TELMA/svcCont/svcRedirectPol-ANA-FTD-DMZ-REDIRECT"
+                  },
+                  "subnets": []
+                },
+                "consumerConnector": {
+                  "clusterInterface": {
+                    "dn": "uni/tn-TELMA/lDevVip-FTD/lIf-DATA-DMZ"
+                  },
+                  "redirectPolicy": {
+                    "dn": "uni/tn-TELMA/svcCont/svcRedirectPol-ANA-FTD-DMZ-REDIRECT"
+                  },
+                  "subnets": []
+                }
+              }
+            ]
+          }
+        },
+        {
+          "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/C-DMZ-ICMP"
+        },
+        {
+          "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/CP-DMZ-SMSGW-TCP-2775"
+        }
+      ],
+      "externalEpgs": [
+        {
+          "externalEpgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/externalEpgs/SUCURI",
+          "l3outDn": "",
+          "subnets": [],
+          "routeReachabilityInternetType": "internet",
+          "l3outRef": ""
+        },
+        {
+          "externalEpgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/externalEpgs/INTERNET-DMZ",
+          "l3outDn": "",
+          "subnets": [],
+          "routeReachabilityInternetType": "internet",
+          "l3outRef": ""
+        },
+        {
+          "externalEpgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/externalEpgs/DTG-NAS",
+          "l3outDn": "",
+          "subnets": [],
+          "routeReachabilityInternetType": "internet",
+          "l3outRef": ""
+        },
+        {
+          "externalEpgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/externalEpgs/FACEBOOK",
+          "l3outDn": "",
+          "subnets": [],
+          "routeReachabilityInternetType": "internet",
+          "l3outRef": ""
+        },
+        {
+          "externalEpgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/externalEpgs/IDEMIA-PUBLIC",
+          "l3outDn": "",
+          "subnets": [],
+          "routeReachabilityInternetType": "internet",
+          "l3outRef": ""
+        }
+      ],
+      "serviceGraphs": [
+        {
+          "serviceGraphRef": "/schemas/5f17d9e91000002330584937/templates/Template1/serviceGraphs/FTD-DMZ",
+          "serviceNodes": [
+            {
+              "serviceNodeRef": "/schemas/5f17d9e91000002330584937/templates/Template1/serviceGraphs/FTD-DMZ/serviceNodes/node1",
+              "device": {
+                "dn": "uni/tn-TELMA/lDevVip-FTD",
+                "funcType": "GoTo"
+              }
+            }
+          ]
+        }
+      ],
+      "intersiteL3outs": [
+        {
+          "l3outRef": "/schemas/5f17d9e91000002330584937/templates/Template1/l3outs/DMZ",
+          "vrfRef": "/schemas/5f17d9e91000002330584937/templates/Template1/vrfs/DMZ",
+          "srLocationProfiles": []
+        }
+      ],
+      "networks": []
+    },
+    {
+      "siteId": "5d9850730e00003100c40416",
+      "templateName": "Template1",
+      "anps": [
+        {
+          "anpRef": "/schemas/5f17d9e91000002330584937/templates/Template1/anps/DMZ-WAN",
+          "epgs": [
+            {
+              "epgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/anps/DMZ-WAN/epgs/DMZ-SMSGW",
+              "domainAssociations": [
+                {
+                  "dn": "uni/vmmp-VMware/dom-VMM-VDS-GAL-01",
+                  "domainType": "vmmDomain",
+                  "deployImmediacy": "immediate",
+                  "resolutionImmediacy": "immediate",
+                  "allowMicroSegmentation": false,
+                  "portEncapVlan": {
+                    "vlanType": "vlan",
+                    "vlan": 1558
+                  },
+                  "switchType": "default",
+                  "vlanEncapMode": "static",
+                  "epgLagPol": {
+                    "enhancedLagPol": {
+                      "name": "lag01",
+                      "dn": "uni/vmmp-VMware/dom-VMM-VDS-GAL-01/vswitchpolcont/enlacplagp-lag01"
+                    }
+                  },
+                  "switchingMode": "native"
+                },
+                {
+                  "dn": "uni/vmmp-VMware/dom-VMM-VDS-GAL-02",
+                  "domainType": "vmmDomain",
+                  "deployImmediacy": "lazy",
+                  "resolutionImmediacy": "lazy",
+                  "allowMicroSegmentation": false,
+                  "portEncapVlan": {
+                    "vlanType": "vlan",
+                    "vlan": 1884
+                  },
+                  "switchType": "default",
+                  "vlanEncapMode": "static",
+                  "epgLagPol": {
+                    "enhancedLagPol": {
+                      "name": "lag01",
+                      "dn": "uni/vmmp-VMware/dom-VMM-VDS-GAL-02/vswitchpolcont/enlacplagp-lag01"
+                    }
+                  },
+                  "switchingMode": "native"
+                }
+              ],
+              "staticPorts": [],
+              "staticLeafs": [],
+              "uSegAttrs": [],
+              "subnets": [],
+              "selectors": []
+            },
+            {
+              "epgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/anps/DMZ-WAN/epgs/DMZ-WEBMAIL-1251",
+              "domainAssociations": [
+                {
+                  "dn": "uni/vmmp-VMware/dom-VMM-VDS-GAL-01",
+                  "domainType": "vmmDomain",
+                  "deployImmediacy": "immediate",
+                  "resolutionImmediacy": "immediate",
+                  "allowMicroSegmentation": false,
+                  "portEncapVlan": {
+                    "vlanType": "vlan",
+                    "vlan": 1616
+                  },
+                  "switchType": "default",
+                  "vlanEncapMode": "static",
+                  "epgLagPol": {
+                    "enhancedLagPol": {
+                      "name": "lag01",
+                      "dn": "uni/vmmp-VMware/dom-VMM-VDS-GAL-01/vswitchpolcont/enlacplagp-lag01"
+                    }
+                  },
+                  "switchingMode": "native"
+                },
+                {
+                  "dn": "uni/vmmp-VMware/dom-VMM-VDS-GAL-02",
+                  "domainType": "vmmDomain",
+                  "deployImmediacy": "lazy",
+                  "resolutionImmediacy": "lazy",
+                  "allowMicroSegmentation": false,
+                  "portEncapVlan": {
+                    "vlanType": "vlan",
+                    "vlan": 1898
+                  },
+                  "switchType": "default",
+                  "vlanEncapMode": "static",
+                  "epgLagPol": {
+                    "enhancedLagPol": {
+                      "name": "lag01",
+                      "dn": "uni/vmmp-VMware/dom-VMM-VDS-GAL-02/vswitchpolcont/enlacplagp-lag01"
+                    }
+                  },
+                  "switchingMode": "native"
+                }
+              ],
+              "staticPorts": [],
+              "staticLeafs": [],
+              "uSegAttrs": [],
+              "subnets": [],
+              "selectors": []
+            },
+            {
+              "epgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/anps/DMZ-WAN/epgs/DMZ-WAN-1251",
+              "domainAssociations": [
+                {
+                  "dn": "uni/phys-TELMA-PHYS",
+                  "domainType": "physicalDomain",
+                  "deployImmediacy": "immediate",
+                  "resolutionImmediacy": "immediate",
+                  "allowMicroSegmentation": false
+                },
+                {
+                  "dn": "uni/vmmp-VMware/dom-HX-VDS-GAL-01",
+                  "domainType": "vmmDomain",
+                  "deployImmediacy": "immediate",
+                  "resolutionImmediacy": "immediate",
+                  "allowMicroSegmentation": false,
+                  "vlanEncapMode": "dynamic",
+                  "switchType": "default",
+                  "switchingMode": "native"
+                },
+                {
+                  "dn": "uni/vmmp-VMware/dom-VMM-VDS-GAL-02",
+                  "domainType": "vmmDomain",
+                  "deployImmediacy": "lazy",
+                  "resolutionImmediacy": "lazy",
+                  "allowMicroSegmentation": false,
+                  "portEncapVlan": {
+                    "vlanType": "vlan",
+                    "vlan": 1940
+                  },
+                  "switchType": "default",
+                  "vlanEncapMode": "static",
+                  "epgLagPol": {
+                    "enhancedLagPol": {
+                      "name": "lag01",
+                      "dn": "uni/vmmp-VMware/dom-VMM-VDS-GAL-02/vswitchpolcont/enlacplagp-lag01"
+                    }
+                  },
+                  "switchingMode": "native"
+                }
+              ],
+              "staticPorts": [
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-101/pathep-[eth1/1]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-101/pathep-[eth1/2]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-101/pathep-[eth1/3]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-101/pathep-[eth1/4]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-101/pathep-[eth1/5]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-101/pathep-[eth1/6]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-101/pathep-[eth1/7]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-102/pathep-[eth1/1]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-102/pathep-[eth1/2]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-102/pathep-[eth1/3]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-102/pathep-[eth1/4]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-102/pathep-[eth1/5]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-102/pathep-[eth1/6]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-102/pathep-[eth1/7]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-107/pathep-[eth1/6]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-107/pathep-[eth1/8]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-107/pathep-[eth1/10]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-107/pathep-[eth1/12]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-107/pathep-[eth1/14]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-107/pathep-[eth1/16]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-107/pathep-[eth1/18]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-107/pathep-[eth1/20]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-107/pathep-[eth1/22]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-107/pathep-[eth1/24]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-107/pathep-[eth1/26]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-107/pathep-[eth1/28]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-107/pathep-[eth1/30]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-107/pathep-[eth1/32]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-108/pathep-[eth1/6]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-108/pathep-[eth1/8]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-108/pathep-[eth1/10]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-108/pathep-[eth1/12]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-108/pathep-[eth1/14]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-108/pathep-[eth1/16]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-108/pathep-[eth1/18]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-108/pathep-[eth1/20]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-108/pathep-[eth1/22]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-108/pathep-[eth1/24]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-108/pathep-[eth1/26]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-108/pathep-[eth1/28]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-108/pathep-[eth1/30]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                },
+                {
+                  "type": "port",
+                  "path": "topology/pod-1/paths-108/pathep-[eth1/32]",
+                  "portEncapVlan": 1251,
+                  "deploymentImmediacy": "immediate",
+                  "mode": "regular"
+                }
+              ],
+              "staticLeafs": [],
+              "uSegAttrs": [],
+              "subnets": [],
+              "selectors": []
+            },
+            {
+              "epgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/anps/DMZ-WAN/epgs/DMZ-MAIL-1251",
+              "domainAssociations": [],
+              "staticPorts": [],
+              "staticLeafs": [],
+              "uSegAttrs": [],
+              "subnets": [],
+              "selectors": []
+            },
+            {
+              "epgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/anps/DMZ-WAN/epgs/DMZ-FTP-1251",
+              "domainAssociations": [
+                {
+                  "dn": "uni/vmmp-VMware/dom-VMM-VDS-GAL-01",
+                  "domainType": "vmmDomain",
+                  "deployImmediacy": "immediate",
+                  "resolutionImmediacy": "immediate",
+                  "allowMicroSegmentation": false,
+                  "portEncapVlan": {
+                    "vlanType": "vlan",
+                    "vlan": 1466
+                  },
+                  "switchType": "default",
+                  "vlanEncapMode": "static",
+                  "epgLagPol": {
+                    "enhancedLagPol": {
+                      "name": "lag01",
+                      "dn": "uni/vmmp-VMware/dom-VMM-VDS-GAL-01/vswitchpolcont/enlacplagp-lag01"
+                    }
+                  },
+                  "switchingMode": "native"
+                },
+                {
+                  "dn": "uni/vmmp-VMware/dom-VMM-VDS-GAL-02",
+                  "domainType": "vmmDomain",
+                  "deployImmediacy": "lazy",
+                  "resolutionImmediacy": "lazy",
+                  "allowMicroSegmentation": false,
+                  "portEncapVlan": {
+                    "vlanType": "vlan",
+                    "vlan": 1990
+                  },
+                  "switchType": "default",
+                  "vlanEncapMode": "static",
+                  "epgLagPol": {
+                    "enhancedLagPol": {
+                      "name": "lag01",
+                      "dn": "uni/vmmp-VMware/dom-VMM-VDS-GAL-02/vswitchpolcont/enlacplagp-lag01"
+                    }
+                  },
+                  "switchingMode": "native"
+                }
+              ],
+              "staticPorts": [],
+              "staticLeafs": [],
+              "uSegAttrs": [],
+              "subnets": [],
+              "selectors": []
+            }
+          ]
+        },
+        {
+          "anpRef": "/schemas/5f17d9e91000002330584937/templates/Template1/anps/TEST",
+          "epgs": [
+            {
+              "epgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/anps/TEST/epgs/TEST-SCHEMA-85",
+              "domainAssociations": [],
+              "staticPorts": [],
+              "staticLeafs": [],
+              "uSegAttrs": [],
+              "subnets": [],
+              "selectors": []
+            }
+          ]
+        },
+        {
+          "anpRef": "/schemas/5f17d9e91000002330584937/templates/Template1/anps/RBS",
+          "epgs": [
+            {
+              "epgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/anps/RBS/epgs/RBS-EXT-PROD",
+              "domainAssociations": [
+                {
+                  "dn": "uni/vmmp-VMware/dom-VMM-VDS-GAL-01",
+                  "domainType": "vmmDomain",
+                  "deployImmediacy": "immediate",
+                  "resolutionImmediacy": "immediate",
+                  "allowMicroSegmentation": false,
+                  "portEncapVlan": {
+                    "vlanType": "vlan",
+                    "vlan": 1540
+                  },
+                  "switchType": "default",
+                  "vlanEncapMode": "static",
+                  "epgLagPol": {
+                    "enhancedLagPol": {
+                      "name": "lag01",
+                      "dn": "uni/vmmp-VMware/dom-VMM-VDS-GAL-01/vswitchpolcont/enlacplagp-lag01"
+                    }
+                  },
+                  "switchingMode": "native"
+                },
+                {
+                  "dn": "uni/vmmp-VMware/dom-VMM-VDS-GAL-02",
+                  "domainType": "vmmDomain",
+                  "deployImmediacy": "lazy",
+                  "resolutionImmediacy": "lazy",
+                  "allowMicroSegmentation": false,
+                  "portEncapVlan": {
+                    "vlanType": "vlan",
+                    "vlan": 1788
+                  },
+                  "switchType": "default",
+                  "vlanEncapMode": "static",
+                  "epgLagPol": {
+                    "enhancedLagPol": {
+                      "name": "lag01",
+                      "dn": "uni/vmmp-VMware/dom-VMM-VDS-GAL-02/vswitchpolcont/enlacplagp-lag01"
+                    }
+                  },
+                  "switchingMode": "native"
+                }
+              ],
+              "staticPorts": [],
+              "staticLeafs": [],
+              "uSegAttrs": [],
+              "subnets": [],
+              "selectors": []
+            },
+            {
+              "epgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/anps/RBS/epgs/RBS-EXT-PROD-2",
+              "domainAssociations": [
+                {
+                  "dn": "uni/vmmp-VMware/dom-VMM-VDS-GAL-01",
+                  "domainType": "vmmDomain",
+                  "deployImmediacy": "lazy",
+                  "resolutionImmediacy": "lazy",
+                  "allowMicroSegmentation": false,
+                  "portEncapVlan": {
+                    "vlanType": "vlan",
+                    "vlan": 1688
+                  },
+                  "switchType": "default",
+                  "vlanEncapMode": "static",
+                  "epgLagPol": {
+                    "enhancedLagPol": {
+                      "name": "lag01",
+                      "dn": "uni/vmmp-VMware/dom-VMM-VDS-GAL-01/vswitchpolcont/enlacplagp-lag01"
+                    }
+                  },
+                  "switchingMode": "native"
+                },
+                {
+                  "dn": "uni/vmmp-VMware/dom-VMM-VDS-GAL-02",
+                  "domainType": "vmmDomain",
+                  "deployImmediacy": "lazy",
+                  "resolutionImmediacy": "lazy",
+                  "allowMicroSegmentation": false,
+                  "portEncapVlan": {
+                    "vlanType": "vlan",
+                    "vlan": 1848
+                  },
+                  "switchType": "default",
+                  "vlanEncapMode": "static",
+                  "epgLagPol": {
+                    "enhancedLagPol": {
+                      "name": "lag01",
+                      "dn": "uni/vmmp-VMware/dom-VMM-VDS-GAL-02/vswitchpolcont/enlacplagp-lag01"
+                    }
+                  },
+                  "switchingMode": "native"
+                }
+              ],
+              "staticPorts": [],
+              "staticLeafs": [],
+              "uSegAttrs": [],
+              "subnets": [],
+              "selectors": []
+            },
+            {
+              "epgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/anps/RBS/epgs/DMZ-RBS-1251",
+              "domainAssociations": [
+                {
+                  "dn": "uni/vmmp-VMware/dom-VMM-VDS-GAL-01",
+                  "domainType": "vmmDomain",
+                  "deployImmediacy": "immediate",
+                  "resolutionImmediacy": "immediate",
+                  "allowMicroSegmentation": false,
+                  "portEncapVlan": {
+                    "vlanType": "vlan",
+                    "vlan": 1580
+                  },
+                  "switchType": "default",
+                  "vlanEncapMode": "static",
+                  "epgLagPol": {
+                    "enhancedLagPol": {
+                      "name": "lag01",
+                      "dn": "uni/vmmp-VMware/dom-VMM-VDS-GAL-01/vswitchpolcont/enlacplagp-lag01"
+                    }
+                  },
+                  "switchingMode": "native"
+                },
+                {
+                  "dn": "uni/vmmp-VMware/dom-VMM-VDS-GAL-02",
+                  "domainType": "vmmDomain",
+                  "deployImmediacy": "lazy",
+                  "resolutionImmediacy": "lazy",
+                  "allowMicroSegmentation": false,
+                  "portEncapVlan": {
+                    "vlanType": "vlan",
+                    "vlan": 1846
+                  },
+                  "switchType": "default",
+                  "vlanEncapMode": "static",
+                  "epgLagPol": {
+                    "enhancedLagPol": {
+                      "name": "lag01",
+                      "dn": "uni/vmmp-VMware/dom-VMM-VDS-GAL-02/vswitchpolcont/enlacplagp-lag01"
+                    }
+                  },
+                  "switchingMode": "native"
+                }
+              ],
+              "staticPorts": [],
+              "staticLeafs": [],
+              "uSegAttrs": [],
+              "subnets": [],
+              "selectors": []
+            }
+          ]
+        }
+      ],
+      "vrfs": [
+        {
+          "vrfRef": "/schemas/5f17d9e91000002330584937/templates/Template1/vrfs/DMZ",
+          "regions": [],
+          "trmEnabled": false,
+          "isRPExternal": false,
+          "dcnmStaticLeafs": [],
+          "routeLeak": []
+        }
+      ],
+      "bds": [
+        {
+          "bdRef": "/schemas/5f17d9e91000002330584937/templates/Template1/bds/DMZ-WAN-1251",
+          "subnets": [],
+          "l3Outs": ["DMZ"],
+          "hostBasedRouting": true,
+          "l3OutRefs": ["/schemas/5f17d9e91000002330584937/templates/Template1/l3outs/DMZ"],
+          "mac": "00:22:BD:F8:19:FF"
+        },
+        {
+          "bdRef": "/schemas/5f17d9e91000002330584937/templates/Template1/bds/RBS-PROD",
+          "subnets": [],
+          "l3Outs": ["DMZ"],
+          "hostBasedRouting": true,
+          "l3OutRefs": ["/schemas/5f17d9e91000002330584937/templates/Template1/l3outs/DMZ"],
+          "mac": "00:22:BD:F8:19:FF"
+        },
+        {
+          "bdRef": "/schemas/5f17d9e91000002330584937/templates/Template1/bds/PBR-DMZ",
+          "subnets": [],
+          "l3Outs": [],
+          "hostBasedRouting": false,
+          "l3OutRefs": [],
+          "mac": "00:22:BD:F8:19:FF"
+        },
+        {
+          "bdRef": "/schemas/5f17d9e91000002330584937/templates/Template1/bds/DMZ-IPPUB-DIRECT",
+          "subnets": [],
+          "l3Outs": ["DMZ"],
+          "hostBasedRouting": true,
+          "l3OutRefs": ["/schemas/5f17d9e91000002330584937/templates/Template1/l3outs/DMZ"],
+          "mac": "00:22:BD:F8:19:FF"
+        }
+      ],
+      "contracts": [
+        {
+          "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/eCP-NAS-RBS-3799-UDP"
+        },
+        {
+          "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/CP-RBS-TCP-UDP"
+        },
+        {
+          "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/eCP-NAS-RBS"
+        },
+        {
+          "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/DMZ-FTP-SFTP-IPS",
+          "serviceGraphRelationship": {
+            "serviceGraphRef": "/schemas/5f17d9e91000002330584937/templates/Template1/serviceGraphs/FTD-DMZ",
+            "serviceNodesRelationship": [
+              {
+                "serviceNodeRef": "/schemas/5f17d9e91000002330584937/templates/Template1/serviceGraphs/FTD-DMZ/serviceNodes/node1",
+                "providerConnector": {
+                  "clusterInterface": {
+                    "dn": "uni/tn-TELMA/lDevVip-FTD/lIf-DATA-INT-DMZ"
+                  },
+                  "redirectPolicy": {
+                    "dn": "uni/tn-TELMA/svcCont/svcRedirectPol-GAL-FTD-DMZ-REDIRECT"
+                  },
+                  "subnets": []
+                },
+                "consumerConnector": {
+                  "clusterInterface": {
+                    "dn": "uni/tn-TELMA/lDevVip-FTD/lIf-DATA-INT-DMZ"
+                  },
+                  "redirectPolicy": {
+                    "dn": "uni/tn-TELMA/svcCont/svcRedirectPol-GAL-FTD-DMZ-REDIRECT"
+                  },
+                  "subnets": []
+                }
+              }
+            ]
+          }
+        },
+        {
+          "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/CD-FTP-to-IDEMIA"
+        },
+        {
+          "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/C-DMZ-TCP-ESTABLISHED"
+        },
+        {
+          "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/DMZ-INTERNET"
+        },
+        {
+          "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/DMZ-WEBMAIL-IPS",
+          "serviceGraphRelationship": {
+            "serviceGraphRef": "/schemas/5f17d9e91000002330584937/templates/Template1/serviceGraphs/FTD-DMZ",
+            "serviceNodesRelationship": [
+              {
+                "serviceNodeRef": "/schemas/5f17d9e91000002330584937/templates/Template1/serviceGraphs/FTD-DMZ/serviceNodes/node1",
+                "providerConnector": {
+                  "clusterInterface": {
+                    "dn": "uni/tn-TELMA/lDevVip-FTD/lIf-DATA-INT-DMZ"
+                  },
+                  "redirectPolicy": {
+                    "dn": "uni/tn-TELMA/svcCont/svcRedirectPol-GAL-FTD-DMZ-REDIRECT"
+                  },
+                  "subnets": []
+                },
+                "consumerConnector": {
+                  "clusterInterface": {
+                    "dn": "uni/tn-TELMA/lDevVip-FTD/lIf-DATA-INT-DMZ"
+                  },
+                  "redirectPolicy": {
+                    "dn": "uni/tn-TELMA/svcCont/svcRedirectPol-GAL-FTD-DMZ-REDIRECT"
+                  },
+                  "subnets": []
+                }
+              }
+            ]
+          }
+        },
+        {
+          "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/C-DMZ-ICMP"
+        },
+        {
+          "contractRef": "/schemas/5f17d9e91000002330584937/templates/Template1/contracts/CP-DMZ-SMSGW-TCP-2775"
+        }
+      ],
+      "externalEpgs": [
+        {
+          "externalEpgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/externalEpgs/SUCURI",
+          "l3outDn": "",
+          "subnets": [],
+          "routeReachabilityInternetType": "internet",
+          "l3outRef": ""
+        },
+        {
+          "externalEpgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/externalEpgs/INTERNET-DMZ",
+          "l3outDn": "",
+          "subnets": [],
+          "routeReachabilityInternetType": "internet",
+          "l3outRef": ""
+        },
+        {
+          "externalEpgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/externalEpgs/DTG-NAS",
+          "l3outDn": "",
+          "subnets": [],
+          "routeReachabilityInternetType": "internet",
+          "l3outRef": ""
+        },
+        {
+          "externalEpgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/externalEpgs/FACEBOOK",
+          "l3outDn": "",
+          "subnets": [],
+          "routeReachabilityInternetType": "internet",
+          "l3outRef": ""
+        },
+        {
+          "externalEpgRef": "/schemas/5f17d9e91000002330584937/templates/Template1/externalEpgs/IDEMIA-PUBLIC",
+          "l3outDn": "",
+          "subnets": [],
+          "routeReachabilityInternetType": "internet",
+          "l3outRef": ""
+        }
+      ],
+      "serviceGraphs": [
+        {
+          "serviceGraphRef": "/schemas/5f17d9e91000002330584937/templates/Template1/serviceGraphs/FTD-DMZ",
+          "serviceNodes": [
+            {
+              "serviceNodeRef": "/schemas/5f17d9e91000002330584937/templates/Template1/serviceGraphs/FTD-DMZ/serviceNodes/node1",
+              "device": {
+                "dn": "uni/tn-TELMA/lDevVip-FTD",
+                "funcType": "GoTo"
+              }
+            }
+          ]
+        }
+      ],
+      "intersiteL3outs": [
+        {
+          "l3outRef": "/schemas/5f17d9e91000002330584937/templates/Template1/l3outs/DMZ",
+          "vrfRef": "/schemas/5f17d9e91000002330584937/templates/Template1/vrfs/DMZ",
+          "srLocationProfiles": []
+        }
+      ],
+      "networks": []
+    }
+  ]
+}

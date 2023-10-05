@@ -1,0 +1,89 @@
+{
+  "totalCount": "4",
+  "imdata": [
+    {
+      "fvTenant": {
+        "attributes": {
+          "annotation": "",
+          "childAction": "",
+          "descr": "",
+          "dn": "uni/tn-common",
+          "extMngdBy": "",
+          "lcOwn": "local",
+          "modTs": "2019-05-15T11:07:35.889+03:00",
+          "monPolDn": "uni/tn-common/monepg-default",
+          "name": "common",
+          "nameAlias": "",
+          "ownerKey": "",
+          "ownerTag": "",
+          "status": "",
+          "uid": "0",
+          "userdom": "all"
+        }
+      }
+    },
+    {
+      "fvTenant": {
+        "attributes": {
+          "annotation": "",
+          "childAction": "",
+          "descr": "",
+          "dn": "uni/tn-mgmt",
+          "extMngdBy": "",
+          "lcOwn": "local",
+          "modTs": "2019-05-15T11:07:42.116+03:00",
+          "monPolDn": "uni/tn-common/monepg-default",
+          "name": "mgmt",
+          "nameAlias": "",
+          "ownerKey": "",
+          "ownerTag": "",
+          "status": "",
+          "uid": "0",
+          "userdom": "all"
+        }
+      }
+    },
+    {
+      "fvTenant": {
+        "attributes": {
+          "annotation": "",
+          "childAction": "",
+          "descr": "",
+          "dn": "uni/tn-infra",
+          "extMngdBy": "",
+          "lcOwn": "local",
+          "modTs": "2019-05-15T11:07:40.487+03:00",
+          "monPolDn": "uni/tn-common/monepg-default",
+          "name": "infra",
+          "nameAlias": "",
+          "ownerKey": "",
+          "ownerTag": "",
+          "status": "",
+          "uid": "0",
+          "userdom": "all"
+        }
+      }
+    },
+    {
+      "fvTenant": {
+        "attributes": {
+          "annotation": "orchestrator:msc",
+          "childAction": "",
+          "descr": "",
+          "dn": "uni/tn-TELMA",
+          "extMngdBy": "msc",
+          "lcOwn": "local",
+          "modTs": "2019-10-05T12:16:59.389+03:00",
+          "monPolDn": "uni/tn-common/monepg-default",
+          "name": "TELMA",
+          "nameAlias": "",
+          "ownerKey": "",
+          "ownerTag": "",
+          "status": "",
+          "uid": "13450",
+          "userdom": "all"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,2789 @@
+{
+  "totalCount": "96",
+  "imdata": [
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[HX-VDS-ANA-01]-ANA-VC/hv-host-324271",
+          "enteringMaintenance": "no",
+          "guid": "b42aa7c2-13c6-0e42-bf6c-904d033c7f68",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-04T14:31:29.827+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg110.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324271",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[HX-VDS-ANA-01]-ANA-VC/hv-host-324244",
+          "enteringMaintenance": "no",
+          "guid": "cb6b07d6-1d64-e74d-abc2-11da9685cfbf",
+          "id": "0",
+          "issues": "hv-disconnect-fault",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-06-11T09:27:26.167+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg104.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324244",
+          "operIssues": "",
+          "os": "",
+          "state": "disconnected",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[HX-VDS-ANA-01]-ANA-VC/hv-host-324250",
+          "enteringMaintenance": "no",
+          "guid": "62f6eed0-beff-154e-9ada-5b54612c6179",
+          "id": "0",
+          "issues": "hv-disconnect-fault",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-06-11T09:27:26.167+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg103.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324250",
+          "operIssues": "",
+          "os": "",
+          "state": "disconnected",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[HX-VDS-ANA-01]-ANA-VC/hv-host-324253",
+          "enteringMaintenance": "no",
+          "guid": "af019089-2ff4-4f4c-a7b3-87b4378f472e",
+          "id": "0",
+          "issues": "hv-disconnect-fault",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-06-11T09:27:26.167+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg105.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324253",
+          "operIssues": "",
+          "os": "",
+          "state": "disconnected",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[HX-VDS-ANA-01]-ANA-VC/hv-host-324268",
+          "enteringMaintenance": "no",
+          "guid": "4bbb189c-fa12-9a42-b5f5-0448cb152782",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-04T14:52:28.082+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg112.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324268",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[HX-VDS-ANA-01]-ANA-VC/hv-host-324256",
+          "enteringMaintenance": "no",
+          "guid": "7c7ff12d-0e64-a74a-8b83-3801661b8d67",
+          "id": "0",
+          "issues": "hv-disconnect-fault",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-06-11T09:27:26.167+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg106.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324256",
+          "operIssues": "",
+          "os": "",
+          "state": "disconnected",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[HX-VDS-ANA-01]-ANA-VC/hv-host-324277",
+          "enteringMaintenance": "no",
+          "guid": "ff09f295-d004-d944-aff2-a3fd58b872d8",
+          "id": "0",
+          "issues": "hv-disconnect-fault",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-06-13T09:28:51.505+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg114.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324277",
+          "operIssues": "",
+          "os": "",
+          "state": "disconnected",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[HX-VDS-ANA-01]-ANA-VC/hv-host-171004",
+          "enteringMaintenance": "no",
+          "guid": "00000000-0000-0000-0000-ac1f6bbbd3fa",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-19T15:06:20.985+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxmgt02.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-171004",
+          "operIssues": "",
+          "os": "",
+          "state": "maintenance",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[HX-VDS-ANA-01]-ANA-VC/hv-host-163970",
+          "enteringMaintenance": "no",
+          "guid": "00000000-0000-0000-0000-ac1f6bbbd586",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-27T10:00:14.261+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t04dsipesxrsg02.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-163970",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[HX-VDS-ANA-01]-ANA-VC/hv-host-93038",
+          "enteringMaintenance": "no",
+          "guid": "10876ef6-6fff-490a-ab15-ae3260db7d5f",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-06-02T09:21:08.235+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxrsg09.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-93038",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[HX-VDS-ANA-01]-ANA-VC/hv-host-168312",
+          "enteringMaintenance": "no",
+          "guid": "9be67a7e-c019-3944-b261-6c5f42213a2f",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-14T09:50:57.181+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxvas01.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-168312",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[HX-VDS-ANA-01]-ANA-VC/hv-host-162112",
+          "enteringMaintenance": "no",
+          "guid": "0b6c609e-7c9c-3f4f-89aa-0c75be03553f",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-05-05T09:01:22.683+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxrsg10.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-162112",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[HX-VDS-ANA-01]-ANA-VC/hv-host-171001",
+          "enteringMaintenance": "no",
+          "guid": "00000000-0000-0000-0000-ac1f6bbbd4b8",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-19T15:06:11.973+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxmgt01.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-171001",
+          "operIssues": "",
+          "os": "",
+          "state": "maintenance",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[HX-VDS-ANA-01]-ANA-VC/hv-host-168303",
+          "enteringMaintenance": "no",
+          "guid": "7dd90f93-4b35-d549-af4e-2d4dd4f427a1",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-05-23T22:15:17.707+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxvas02.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-168303",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[HX-VDS-ANA-01]-ANA-VC/hv-host-168310",
+          "enteringMaintenance": "no",
+          "guid": "ce137804-c5b0-674b-9714-1c21170940a9",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-04-24T10:26:57.340+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxvas03.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-168310",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[HX-VDS-ANA-01]-ANA-VC/hv-host-93035",
+          "enteringMaintenance": "no",
+          "guid": "fd1c615f-0e16-41c6-8598-d0077c6ea75e",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-12T09:49:30.683+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxrsg08.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-93035",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[HX-VDS-ANA-01]-ANA-VC/hv-host-302190",
+          "enteringMaintenance": "no",
+          "guid": "e9184000-7983-11ec-8000-d85ed34d0c3e",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-06-15T09:30:16.719+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxrsg13.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-302190",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[HX-VDS-ANA-01]-ANA-VC/hv-host-235067",
+          "enteringMaintenance": "no",
+          "guid": "d26922e0-aec7-9e40-ae68-43f4da9a5e88",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-06-06T09:23:54.985+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxrsg11.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-235067",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[HX-VDS-ANA-01]-ANA-VC/hv-host-168403",
+          "enteringMaintenance": "no",
+          "guid": "a1f96869-8c51-3544-b7be-68855aadaac4",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-05-01T22:21:36.153+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxvas04.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-168403",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[HX-VDS-ANA-01]-ANA-VC/hv-host-168313",
+          "enteringMaintenance": "no",
+          "guid": "53db2411-5a33-a54e-87f2-215113764489",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-06-08T22:17:18.710+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxvas05.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-168313",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[HX-VDS-ANA-01]-ANA-VC/hv-host-163966",
+          "enteringMaintenance": "no",
+          "guid": "00000000-0000-0000-0000-ac1f6bbd525c",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-27T10:00:14.261+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t04dsipesxrsg01.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-163966",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[HX-VDS-ANA-01]-ANA-VC/hv-host-302401",
+          "enteringMaintenance": "no",
+          "guid": "e9184000-7983-11ec-8000-d85ed34d0d0a",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-06-06T09:23:54.985+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxrsg12.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-302401",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[HX-VDS-ANA-01]-ANA-VC/hv-host-324165",
+          "enteringMaintenance": "no",
+          "guid": "59830aac-29e1-d448-90ce-da1f7fcc3c43",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-04T09:28:32.598+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxipmgt101.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324165",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[HX-VDS-ANA-01]-ANA-VC/hv-host-324168",
+          "enteringMaintenance": "no",
+          "guid": "0c7e758c-30f5-4d4b-a68a-438d4877b84f",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-04T09:42:38.819+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxipmgt102.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324168",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[HX-VDS-ANA-01]-ANA-VC/hv-host-324171",
+          "enteringMaintenance": "no",
+          "guid": "62c2affd-f998-be46-9f6c-f1834a9eca50",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-04T09:57:21.034+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxipmgt103.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324171",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[HX-VDS-ANA-01]-ANA-VC/hv-host-324265",
+          "enteringMaintenance": "no",
+          "guid": "54b41d3a-63e8-0141-99c9-9837691e3d1f",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-12T09:49:30.683+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg109.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324265",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[HX-VDS-ANA-01]-ANA-VC/hv-host-324241",
+          "enteringMaintenance": "no",
+          "guid": "d1024326-17cd-0942-b2ce-eb5c6b714c52",
+          "id": "0",
+          "issues": "hv-disconnect-fault",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-06-11T09:27:26.167+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg101.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324241",
+          "operIssues": "",
+          "os": "",
+          "state": "disconnected",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[HX-VDS-ANA-01]-ANA-VC/hv-host-324262",
+          "enteringMaintenance": "no",
+          "guid": "fbe04fcc-627d-a543-bdf6-ced180d28d85",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-04T10:16:48.263+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg108.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324262",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[HX-VDS-ANA-01]-ANA-VC/hv-host-324259",
+          "enteringMaintenance": "no",
+          "guid": "2f9dadc8-f642-d842-8bf0-202ba32d9722",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-04T09:37:40.754+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg107.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324259",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[HX-VDS-ANA-01]-ANA-VC/hv-host-324280",
+          "enteringMaintenance": "no",
+          "guid": "772bee38-e0c7-734c-9dad-6d2e216a825b",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-04T14:53:22.096+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg111.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324280",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[HX-VDS-ANA-01]-ANA-VC/hv-host-324274",
+          "enteringMaintenance": "no",
+          "guid": "a9ab0c54-622a-a84f-a35a-e64aadae4ee3",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-04T11:46:02.239+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg113.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324274",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[HX-VDS-ANA-01]-ANA-VC/hv-host-324247",
+          "enteringMaintenance": "no",
+          "guid": "7a096e68-2fed-f044-8fb9-3002ce674e42",
+          "id": "0",
+          "issues": "hv-disconnect-fault",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-06-11T09:27:26.167+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg102.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324247",
+          "operIssues": "",
+          "os": "",
+          "state": "disconnected",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-01]-ANA-VC/hv-host-324250",
+          "enteringMaintenance": "no",
+          "guid": "62f6eed0-beff-154e-9ada-5b54612c6179",
+          "id": "0",
+          "issues": "hv-disconnect-fault",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-06-11T09:24:56.914+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg103.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324250",
+          "operIssues": "",
+          "os": "",
+          "state": "disconnected",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-01]-ANA-VC/hv-host-324253",
+          "enteringMaintenance": "no",
+          "guid": "af019089-2ff4-4f4c-a7b3-87b4378f472e",
+          "id": "0",
+          "issues": "hv-disconnect-fault",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-06-11T09:24:56.914+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg105.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324253",
+          "operIssues": "",
+          "os": "",
+          "state": "disconnected",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-01]-ANA-VC/hv-host-324268",
+          "enteringMaintenance": "no",
+          "guid": "4bbb189c-fa12-9a42-b5f5-0448cb152782",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-04T14:52:28.071+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg112.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324268",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-01]-ANA-VC/hv-host-324256",
+          "enteringMaintenance": "no",
+          "guid": "7c7ff12d-0e64-a74a-8b83-3801661b8d67",
+          "id": "0",
+          "issues": "hv-disconnect-fault",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-06-11T09:24:56.914+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg106.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324256",
+          "operIssues": "",
+          "os": "",
+          "state": "disconnected",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-01]-ANA-VC/hv-host-324277",
+          "enteringMaintenance": "no",
+          "guid": "ff09f295-d004-d944-aff2-a3fd58b872d8",
+          "id": "0",
+          "issues": "hv-disconnect-fault",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-06-13T09:26:12.411+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg114.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324277",
+          "operIssues": "",
+          "os": "",
+          "state": "disconnected",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-01]-ANA-VC/hv-host-324259",
+          "enteringMaintenance": "no",
+          "guid": "2f9dadc8-f642-d842-8bf0-202ba32d9722",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-04T09:37:40.752+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg107.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324259",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-01]-ANA-VC/hv-host-324262",
+          "enteringMaintenance": "no",
+          "guid": "fbe04fcc-627d-a543-bdf6-ced180d28d85",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-04T10:16:48.286+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg108.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324262",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-01]-ANA-VC/hv-host-168303",
+          "enteringMaintenance": "no",
+          "guid": "7dd90f93-4b35-d549-af4e-2d4dd4f427a1",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-05-24T09:13:52.927+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxvas02.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-168303",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-01]-ANA-VC/hv-host-171001",
+          "enteringMaintenance": "no",
+          "guid": "00000000-0000-0000-0000-ac1f6bbbd4b8",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-19T15:06:11.973+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxmgt01.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-171001",
+          "operIssues": "",
+          "os": "",
+          "state": "maintenance",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-01]-ANA-VC/hv-host-162112",
+          "enteringMaintenance": "no",
+          "guid": "0b6c609e-7c9c-3f4f-89aa-0c75be03553f",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-05-04T22:16:05.400+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxrsg10.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-162112",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-01]-ANA-VC/hv-host-171004",
+          "enteringMaintenance": "no",
+          "guid": "00000000-0000-0000-0000-ac1f6bbbd3fa",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-19T15:06:20.985+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxmgt02.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-171004",
+          "operIssues": "",
+          "os": "",
+          "state": "maintenance",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-01]-ANA-VC/hv-host-93035",
+          "enteringMaintenance": "no",
+          "guid": "fd1c615f-0e16-41c6-8598-d0077c6ea75e",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-12T09:44:13.492+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxrsg08.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-93035",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-01]-ANA-VC/hv-host-168312",
+          "enteringMaintenance": "no",
+          "guid": "9be67a7e-c019-3944-b261-6c5f42213a2f",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-14T09:45:27.817+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxvas01.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-168312",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-01]-ANA-VC/hv-host-235067",
+          "enteringMaintenance": "no",
+          "guid": "d26922e0-aec7-9e40-ae68-43f4da9a5e88",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-06-05T22:21:15.132+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxrsg11.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-235067",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-01]-ANA-VC/hv-host-302401",
+          "enteringMaintenance": "no",
+          "guid": "e9184000-7983-11ec-8000-d85ed34d0d0a",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-06-05T22:23:16.800+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxrsg12.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-302401",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-01]-ANA-VC/hv-host-163970",
+          "enteringMaintenance": "no",
+          "guid": "00000000-0000-0000-0000-ac1f6bbbd586",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-27T09:53:30.723+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t04dsipesxrsg02.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-163970",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-01]-ANA-VC/hv-host-93038",
+          "enteringMaintenance": "no",
+          "guid": "10876ef6-6fff-490a-ab15-ae3260db7d5f",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-06-01T22:15:30.423+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxrsg09.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-93038",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-01]-ANA-VC/hv-host-168310",
+          "enteringMaintenance": "no",
+          "guid": "ce137804-c5b0-674b-9714-1c21170940a9",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-04-25T08:55:22.490+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxvas03.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-168310",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-01]-ANA-VC/hv-host-168313",
+          "enteringMaintenance": "no",
+          "guid": "53db2411-5a33-a54e-87f2-215113764489",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-06-09T09:23:42.710+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxvas05.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-168313",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-01]-ANA-VC/hv-host-168403",
+          "enteringMaintenance": "no",
+          "guid": "a1f96869-8c51-3544-b7be-68855aadaac4",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-05-02T09:00:20.572+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxvas04.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-168403",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-01]-ANA-VC/hv-host-163966",
+          "enteringMaintenance": "no",
+          "guid": "00000000-0000-0000-0000-ac1f6bbd525c",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-27T09:53:30.723+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t04dsipesxrsg01.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-163966",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-01]-ANA-VC/hv-host-302190",
+          "enteringMaintenance": "no",
+          "guid": "e9184000-7983-11ec-8000-d85ed34d0c3e",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-06-14T22:15:03.678+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxrsg13.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-302190",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-01]-ANA-VC/hv-host-324168",
+          "enteringMaintenance": "no",
+          "guid": "0c7e758c-30f5-4d4b-a68a-438d4877b84f",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-04T09:42:38.815+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxipmgt102.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324168",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-01]-ANA-VC/hv-host-324171",
+          "enteringMaintenance": "no",
+          "guid": "62c2affd-f998-be46-9f6c-f1834a9eca50",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-04T09:57:21.035+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxipmgt103.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324171",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-01]-ANA-VC/hv-host-324165",
+          "enteringMaintenance": "no",
+          "guid": "59830aac-29e1-d448-90ce-da1f7fcc3c43",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-04T09:28:32.599+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxipmgt101.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324165",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-01]-ANA-VC/hv-host-324241",
+          "enteringMaintenance": "no",
+          "guid": "d1024326-17cd-0942-b2ce-eb5c6b714c52",
+          "id": "0",
+          "issues": "hv-disconnect-fault",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-06-11T09:24:56.914+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg101.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324241",
+          "operIssues": "",
+          "os": "",
+          "state": "disconnected",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-01]-ANA-VC/hv-host-324271",
+          "enteringMaintenance": "no",
+          "guid": "b42aa7c2-13c6-0e42-bf6c-904d033c7f68",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-04T14:31:29.829+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg110.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324271",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-01]-ANA-VC/hv-host-324244",
+          "enteringMaintenance": "no",
+          "guid": "cb6b07d6-1d64-e74d-abc2-11da9685cfbf",
+          "id": "0",
+          "issues": "hv-disconnect-fault",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-06-11T09:24:56.914+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg104.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324244",
+          "operIssues": "",
+          "os": "",
+          "state": "disconnected",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-01]-ANA-VC/hv-host-324265",
+          "enteringMaintenance": "no",
+          "guid": "54b41d3a-63e8-0141-99c9-9837691e3d1f",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-12T09:44:13.492+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg109.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324265",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-01]-ANA-VC/hv-host-324280",
+          "enteringMaintenance": "no",
+          "guid": "772bee38-e0c7-734c-9dad-6d2e216a825b",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-04T14:53:22.082+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg111.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324280",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-01]-ANA-VC/hv-host-324274",
+          "enteringMaintenance": "no",
+          "guid": "a9ab0c54-622a-a84f-a35a-e64aadae4ee3",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-04T11:46:02.233+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg113.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324274",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-01]-ANA-VC/hv-host-324247",
+          "enteringMaintenance": "no",
+          "guid": "7a096e68-2fed-f044-8fb9-3002ce674e42",
+          "id": "0",
+          "issues": "hv-disconnect-fault",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-06-11T09:24:56.914+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg102.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324247",
+          "operIssues": "",
+          "os": "",
+          "state": "disconnected",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-02]-ANA-VC/hv-host-324168",
+          "enteringMaintenance": "no",
+          "guid": "0c7e758c-30f5-4d4b-a68a-438d4877b84f",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-04T09:42:38.825+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxipmgt102.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324168",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-02]-ANA-VC/hv-host-324271",
+          "enteringMaintenance": "no",
+          "guid": "b42aa7c2-13c6-0e42-bf6c-904d033c7f68",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-04T14:31:29.834+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg110.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324271",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-02]-ANA-VC/hv-host-324253",
+          "enteringMaintenance": "no",
+          "guid": "af019089-2ff4-4f4c-a7b3-87b4378f472e",
+          "id": "0",
+          "issues": "hv-disconnect-fault",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-06-11T09:00:02.501+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg105.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324253",
+          "operIssues": "",
+          "os": "",
+          "state": "disconnected",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-02]-ANA-VC/hv-host-324241",
+          "enteringMaintenance": "no",
+          "guid": "d1024326-17cd-0942-b2ce-eb5c6b714c52",
+          "id": "0",
+          "issues": "hv-disconnect-fault",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-06-11T09:00:02.501+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg101.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324241",
+          "operIssues": "",
+          "os": "",
+          "state": "disconnected",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-02]-ANA-VC/hv-host-324265",
+          "enteringMaintenance": "no",
+          "guid": "54b41d3a-63e8-0141-99c9-9837691e3d1f",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-11T22:14:47.245+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg109.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324265",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-02]-ANA-VC/hv-host-324171",
+          "enteringMaintenance": "no",
+          "guid": "62c2affd-f998-be46-9f6c-f1834a9eca50",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-04T09:57:21.030+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxipmgt103.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324171",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-02]-ANA-VC/hv-host-324262",
+          "enteringMaintenance": "no",
+          "guid": "fbe04fcc-627d-a543-bdf6-ced180d28d85",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-04T10:16:48.265+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg108.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324262",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-02]-ANA-VC/hv-host-324256",
+          "enteringMaintenance": "no",
+          "guid": "7c7ff12d-0e64-a74a-8b83-3801661b8d67",
+          "id": "0",
+          "issues": "hv-disconnect-fault",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-06-11T09:00:02.501+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg106.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324256",
+          "operIssues": "",
+          "os": "",
+          "state": "disconnected",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-02]-ANA-VC/hv-host-235067",
+          "enteringMaintenance": "no",
+          "guid": "d26922e0-aec7-9e40-ae68-43f4da9a5e88",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-06-06T08:56:22.729+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxrsg11.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-235067",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-02]-ANA-VC/hv-host-171004",
+          "enteringMaintenance": "no",
+          "guid": "00000000-0000-0000-0000-ac1f6bbbd3fa",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-19T15:06:20.991+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxmgt02.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-171004",
+          "operIssues": "",
+          "os": "",
+          "state": "maintenance",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-02]-ANA-VC/hv-host-302401",
+          "enteringMaintenance": "no",
+          "guid": "e9184000-7983-11ec-8000-d85ed34d0d0a",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-06-06T08:56:22.729+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxrsg12.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-302401",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-02]-ANA-VC/hv-host-168310",
+          "enteringMaintenance": "no",
+          "guid": "ce137804-c5b0-674b-9714-1c21170940a9",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-04-25T08:25:34.443+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxvas03.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-168310",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-02]-ANA-VC/hv-host-324259",
+          "enteringMaintenance": "no",
+          "guid": "2f9dadc8-f642-d842-8bf0-202ba32d9722",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-04T09:37:40.740+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg107.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324259",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-02]-ANA-VC/hv-host-168312",
+          "enteringMaintenance": "no",
+          "guid": "9be67a7e-c019-3944-b261-6c5f42213a2f",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-14T09:23:57.493+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxvas01.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-168312",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-02]-ANA-VC/hv-host-324244",
+          "enteringMaintenance": "no",
+          "guid": "cb6b07d6-1d64-e74d-abc2-11da9685cfbf",
+          "id": "0",
+          "issues": "hv-disconnect-fault",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-06-11T09:00:02.501+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg104.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324244",
+          "operIssues": "",
+          "os": "",
+          "state": "disconnected",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-02]-ANA-VC/hv-host-93038",
+          "enteringMaintenance": "no",
+          "guid": "10876ef6-6fff-490a-ab15-ae3260db7d5f",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-06-02T08:53:26.821+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxrsg09.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-93038",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-02]-ANA-VC/hv-host-324277",
+          "enteringMaintenance": "no",
+          "guid": "ff09f295-d004-d944-aff2-a3fd58b872d8",
+          "id": "0",
+          "issues": "hv-disconnect-fault",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-06-13T09:01:29.561+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg114.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324277",
+          "operIssues": "",
+          "os": "",
+          "state": "disconnected",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-02]-ANA-VC/hv-host-324165",
+          "enteringMaintenance": "no",
+          "guid": "59830aac-29e1-d448-90ce-da1f7fcc3c43",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-04T09:28:32.617+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxipmgt101.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324165",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-02]-ANA-VC/hv-host-324250",
+          "enteringMaintenance": "no",
+          "guid": "62f6eed0-beff-154e-9ada-5b54612c6179",
+          "id": "0",
+          "issues": "hv-disconnect-fault",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-06-11T09:00:02.501+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg103.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324250",
+          "operIssues": "",
+          "os": "",
+          "state": "disconnected",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-02]-ANA-VC/hv-host-324274",
+          "enteringMaintenance": "no",
+          "guid": "a9ab0c54-622a-a84f-a35a-e64aadae4ee3",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-04T11:46:02.240+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg113.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324274",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-02]-ANA-VC/hv-host-324280",
+          "enteringMaintenance": "no",
+          "guid": "772bee38-e0c7-734c-9dad-6d2e216a825b",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-04T14:53:22.093+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg111.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324280",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-02]-ANA-VC/hv-host-171001",
+          "enteringMaintenance": "no",
+          "guid": "00000000-0000-0000-0000-ac1f6bbbd4b8",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-19T15:06:11.984+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxmgt01.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-171001",
+          "operIssues": "",
+          "os": "",
+          "state": "maintenance",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-02]-ANA-VC/hv-host-168313",
+          "enteringMaintenance": "no",
+          "guid": "53db2411-5a33-a54e-87f2-215113764489",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-06-09T08:58:35.011+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxvas05.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-168313",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-02]-ANA-VC/hv-host-168403",
+          "enteringMaintenance": "no",
+          "guid": "a1f96869-8c51-3544-b7be-68855aadaac4",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-05-02T08:30:48.017+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxvas04.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-168403",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-02]-ANA-VC/hv-host-324247",
+          "enteringMaintenance": "no",
+          "guid": "7a096e68-2fed-f044-8fb9-3002ce674e42",
+          "id": "0",
+          "issues": "hv-disconnect-fault",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-06-11T09:00:02.501+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg102.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324247",
+          "operIssues": "",
+          "os": "",
+          "state": "disconnected",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-02]-ANA-VC/hv-host-162112",
+          "enteringMaintenance": "no",
+          "guid": "0b6c609e-7c9c-3f4f-89aa-0c75be03553f",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-05-05T08:32:59.637+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxrsg10.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-162112",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-02]-ANA-VC/hv-host-163966",
+          "enteringMaintenance": "no",
+          "guid": "00000000-0000-0000-0000-ac1f6bbd525c",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-27T09:33:23.300+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t04dsipesxrsg01.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-163966",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-02]-ANA-VC/hv-host-168303",
+          "enteringMaintenance": "no",
+          "guid": "7dd90f93-4b35-d549-af4e-2d4dd4f427a1",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-05-24T08:46:51.649+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxvas02.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-168303",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-02]-ANA-VC/hv-host-163970",
+          "enteringMaintenance": "no",
+          "guid": "00000000-0000-0000-0000-ac1f6bbbd586",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-27T09:33:23.300+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t04dsipesxrsg02.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-163970",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-02]-ANA-VC/hv-host-93035",
+          "enteringMaintenance": "no",
+          "guid": "fd1c615f-0e16-41c6-8598-d0077c6ea75e",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-12T09:22:29.813+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxrsg08.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-93035",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-02]-ANA-VC/hv-host-302190",
+          "enteringMaintenance": "no",
+          "guid": "e9184000-7983-11ec-8000-d85ed34d0c3e",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-06-15T09:02:56.666+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01dsipesxrsg13.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-302190",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    },
+    {
+      "compHv": {
+        "attributes": {
+          "availAdminSt": "gray",
+          "availOperSt": "gray",
+          "childAction": "",
+          "countUplink": "0",
+          "descr": "",
+          "dn": "comp/prov-VMware/ctrlr-[VMM-VDS-ANA-02]-ANA-VC/hv-host-324268",
+          "enteringMaintenance": "no",
+          "guid": "4bbb189c-fa12-9a42-b5f5-0448cb152782",
+          "id": "0",
+          "issues": "",
+          "lcOwn": "local",
+          "mgmtIp": "0.0.0.0",
+          "modTs": "2023-07-04T14:52:28.072+03:00",
+          "monPolDn": "uni/infra/moninfra-default",
+          "name": "t01esxiprsg112.corp.telma.mg",
+          "nameAlias": "",
+          "oid": "host-324268",
+          "operIssues": "",
+          "os": "",
+          "state": "poweredOn",
+          "status": "",
+          "type": "hv",
+          "uuid": ""
+        }
+      }
+    }
+  ]
+}

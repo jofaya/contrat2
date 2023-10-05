@@ -1,0 +1,80 @@
+{
+  "fvCEp": {
+    "attributes": {
+      "annotation": "",
+      "baseEpgDn": "",
+      "bdDn": "uni/tn-TELMA/BD-HX-STORAGE-DATA",
+      "childAction": "",
+      "contName": "",
+      "dn": "uni/tn-TELMA/ap-HYPERFLEX/epg-HX-STORAGE-DATA/cep-00:50:56:6F:8E:A4",
+      "encap": "vlan-1201",
+      "esgUsegDn": "",
+      "extMngdBy": "",
+      "fabricPathDn": "topology/pod-1/paths-102/pathep-[HX-FI-B]",
+      "hostingServer": "",
+      "id": "0",
+      "idepdn": "",
+      "lcC": "learned",
+      "lcOwn": "local",
+      "mac": "00:50:56:6F:8E:A4",
+      "mcastAddr": "not-applicable",
+      "modTs": "2023-02-16T16:19:57.580+03:00",
+      "monPolDn": "uni/tn-common/monepg-default",
+      "name": "00:50:56:6F:8E:A4",
+      "nameAlias": "",
+      "reportingControllerName": "",
+      "status": "",
+      "uid": "0",
+      "userdom": "all",
+      "uuid": "",
+      "vmmSrc": "",
+      "vrfDn": "uni/tn-TELMA/ctx-MAIN"
+    },
+    "children": [
+      {
+        "fvRsCEpToPathEp": {
+          "attributes": {
+            "childAction": "",
+            "forceResolve": "yes",
+            "lcC": "learned",
+            "lcOwn": "local",
+            "modTs": "2023-02-16T16:19:55.276+03:00",
+            "rType": "mo",
+            "rn": "rscEpToPathEp-[topology/pod-1/protpaths-101-102/pathep-[HX-FI-B]]",
+            "state": "formed",
+            "stateQual": "none",
+            "status": "",
+            "tCl": "fabricAPathEp",
+            "tDn": "topology/pod-1/protpaths-101-102/pathep-[HX-FI-B]",
+            "tType": "mo"
+          }
+        }
+      },
+      {
+        "fvIp": {
+          "attributes": {
+            "addr": "10.246.201.4",
+            "annotation": "",
+            "baseEpgDn": "",
+            "bdDn": "uni/tn-TELMA/BD-HX-STORAGE-DATA",
+            "childAction": "",
+            "createTs": "2023-02-16T16:19:24.536+03:00",
+            "debugMACMessage": "",
+            "esgUsegDn": "",
+            "extMngdBy": "",
+            "fabricPathDn": "topology/pod-1/paths-102/pathep-[HX-FI-B]",
+            "flags": "",
+            "lcOwn": "local",
+            "modTs": "2023-02-16T16:19:57.580+03:00",
+            "monPolDn": "uni/tn-common/monepg-default",
+            "rn": "ip-[10.246.201.4]",
+            "status": "",
+            "uid": "0",
+            "userdom": "all",
+            "vrfDn": "uni/tn-TELMA/ctx-MAIN"
+          }
+        }
+      }
+    ]
+  }
+}
